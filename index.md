@@ -1,37 +1,15 @@
-## Welcome to GitHub Pages
+## Welcome to Vikas's website!
 
-You can use the [editor on GitHub](https://github.com/vikasnataraja/vikasnataraja.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+Hey there! I'm Vikas Nataraja, a graduate student working on autonomous vehicles at the University of Colorado Boulder. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Check out my [Github](https://www.github.com/vikasnataraja), connect with me on [LinkedIn](https://www.linkedin.com/in/vikas-hanasoge-nataraja/) and [Twitter](http://twitter.com/vikasnataraja). 
 
-### Markdown
+### About Me
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+I am a graduate student at CU Boulder working primarily on autonomous vehicles and writing software for other applications of Deep Learning. On the AVs side, I work on the Perception side of things with camera and lidar data, designing convolutional neural networks to decipher features like humans do on a regular basis.
 
-```markdown
-Syntax highlighted code block
+Currently (starting in December 2019), I am working as a Graduate Research Assistant at the [Laboratory for Atmospheric and Space Phyiscs](http://lasp.colorado.edu/home/) with (Dr. Sebastian Schmidt)[https://github.com/konradsebastian/ATOC4815] to implement this research paper: ["Retrieval of Cloud Optical Thickness from Sky-View Camera Images using a Deep Convolutional Neural Network based on Three-Dimensional Radiative Transfer"](https://www.mdpi.com/2072-4292/11/17/1962/htm). The idea is to design a CNN to quickly estimate the Cloud Optical Thickness or COT based on a 3D radiative transfer model. In simpler words, calculate the optical thickness of clouds in images taken from a Sky-View camera by taking into account the radiative transfer (geometry and spectral distribution of radiation) through clouds. This is one of the first times I have had the chance to use Deep Learning in a field other than autonomous vehicles or robotics and I'm very excited for it. The framework/backbone of the model is a [PSPNet](https://arxiv.org/pdf/1612.01105.pdf) which I have experimented with once or twice but this should give me a chance to dive deep in to the architecture.
 
-# Header 1
-## Header 2
-### Header 3
+In the last couple of years, I have had the opportunity to work on some truly fascinating topics. In the summer of 2019, I interned as a Software Engineer with [Allvision IO](https://allvision.io/) in Pittsburgh, PA where I worked on building and training a Faster R-CNN and an SSD model to detect license plates in a video stream. In my 3 months at Allvision, I wrote an end-to-end pipeline to grab the images from the dataset, preprocess them, feed them into my model which produces 2D coordinate bounding boxes which are then sent to OpenALPR for license plate character recognition. My model performed quite well on Pittsburgh's Strip District and East Liberty datasets which were the only two available to me at the time. 
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/vikasnataraja/vikasnataraja.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+More recently, I was a Teaching Assistant for a couple of courses - ECEN 2703 Discrete Math for Computer Engineers with Dr. Fabio Somenzi and ATOC 4815 Data Visualization with Python with Dr. Sebastian Schmidt. 
