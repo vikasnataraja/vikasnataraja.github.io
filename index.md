@@ -6,7 +6,10 @@ Check out my [Github](https://www.github.com/vikasnataraja), connect with me on 
 
 ### About Me
 
-![Me at Toronto's CN Tower in December 2019](https://github.com/vikasnataraja/vikasnataraja.github.io/extras/cn_tower1.jpg)
+
+<a href="url"><img src="https://github.com/vikasnataraja/vikasnataraja.github.io/blob/master/extras/cn_tower1.jpg" align="center" height="500" width="600" ></a>
+
+
 
 I am a graduate student at CU Boulder working primarily on autonomous vehicles and writing software for other applications of Deep Learning. On the AVs side, I work on the Perception side of things with camera and lidar data, designing convolutional neural networks to decipher features like humans do on a regular basis.
 
