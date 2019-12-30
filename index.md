@@ -8,7 +8,7 @@ Check out my [Github](https://www.github.com/vikasnataraja), connect with me on 
 
 
 <p align="center">
-  <img width="600" height="550" src="https://github.com/vikasnataraja/vikasnataraja.github.io/blob/master/extras/cn_tower1.jpg">
+  <img width="600" height="550" src="https://vikasnataraja.github.io/extras/cn_tower1.jpg">
 </p>
 
 
