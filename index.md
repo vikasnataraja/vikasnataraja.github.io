@@ -78,8 +78,6 @@ In the last couple of years, I have had the opportunity to work on some truly fa
 
 More recently, I was a Teaching Assistant for a couple of courses - ECEN 2703 Discrete Math for Computer Engineers with Dr. Fabio Somenzi and ATOC 4815 Data Visualization with Python with Dr. Sebastian Schmidt. While both courses were immensely exciting to teach, the latter was so much fun because I had the chance to create new course content and teach Python and Machine Learning to students who had never even heard or experimented with it. It presented a new challenge to me since I mostly run in Computer Science and AV circles where  it is quite safe to assume that people have heard about these kind of topics and brought me back to my roots and forced me to re-learn some topics I had forgotten about. One of my more exciting ventures for sure!
 
-
-
 <p align="center"> 
   <strong>
     <font size="5.5" color="3D91BD">
@@ -91,7 +89,7 @@ More recently, I was a Teaching Assistant for a couple of courses - ECEN 2703 Di
 In addition to these experiences, I also lead the ADCS Software Engineering Team for the [Maxwell CubeSat mission](https://www.colorado.edu/project/maxwellcubesat/our-mission) where I work on Attitude Determination and Control Systems problems for the satellite. Specifically, I develop Flight Software to use perception (from sensors) and control the motion of the satellite using actuators. Currently, it is scheduled to be delivered to the US Air Force Research Lab by the Summer of 2020 and a tentative launch date in the Spring of 2021. The biggest reason why I joined this project in the first place in spite of it not being my focus area was the opportunity to take my work on Perception systems in AVs and use them in the real world and learn about control systems which isn't particularly my cup of tea. Plus, we get to launch an actual satellite that will fly in space which is pretty cool!
 
 <p align="center">
-  <img width="700" height="450" src="https://vikasnataraja.github.io/extras/maxwell.jpg">
+  <img width="700" height="400" src="https://vikasnataraja.github.io/extras/maxwell.jpg">
 </p>
 
 
