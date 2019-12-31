@@ -1,5 +1,10 @@
-## Welcome to Vikas's website!
-
+<p align="center"> 
+  <strong>
+    <font size="6">
+      Welcome to Vikas's website!
+    </font>
+  </strong>
+</p>
 Hey there! I'm Vikas Nataraja, a graduate student working on autonomous vehicles at the University of Colorado Boulder. 
 
 Check out my [Github](https://www.github.com/vikasnataraja), connect with me on [LinkedIn](https://www.linkedin.com/in/vikas-hanasoge-nataraja/) and [Twitter](http://twitter.com/vikasnataraja). 
