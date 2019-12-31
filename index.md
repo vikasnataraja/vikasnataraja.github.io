@@ -1,8 +1,5 @@
 <p align="center"> 
   <strong>
-    <font size="6" color="0FA4AC">
-<p align="center"> 
-  <strong>
     <font size="6" color="36B7BE">
       Welcome to Vikas's website!
     </font>
