@@ -1,18 +1,14 @@
 <p align="center"> 
   <strong>
-<<<<<<< HEAD
     <font size="6" color="0FA4AC">
-=======
-    <font size="6">
->>>>>>> e78f34b7df4b8232373d1ab33c81ce03c9e98a3c
+<p align="center"> 
+  <strong>
+    <font size="6" color="36B7BE">
       Welcome to Vikas's website!
     </font>
   </strong>
 </p>
-<<<<<<< HEAD
 
-=======
->>>>>>> e78f34b7df4b8232373d1ab33c81ce03c9e98a3c
 Hey there! I'm Vikas Nataraja, a graduate student working on autonomous vehicles at the University of Colorado Boulder. 
 
 Check out my [Github](https://www.github.com/vikasnataraja), connect with me on [LinkedIn](https://www.linkedin.com/in/vikas-hanasoge-nataraja/) and [Twitter](http://twitter.com/vikasnataraja). 
@@ -55,8 +51,6 @@ Currently (starting in December 2019), I am working as a Graduate Research Assis
   <img width="700" height="400" src="https://vikasnataraja.github.io/extras/east_campus.jpg">
 </p>
 
-<<<<<<< HEAD
-
 
 <p align="center"> 
   <strong>
@@ -66,16 +60,12 @@ Currently (starting in December 2019), I am working as a Graduate Research Assis
   </strong>
 </p>
 
-=======
-#### My internship at an awesome startup in Pittsburgh
->>>>>>> e78f34b7df4b8232373d1ab33c81ce03c9e98a3c
+
 In the last couple of years, I have had the opportunity to work on some truly fascinating topics. In the summer of 2019, I interned as a Software Engineer with [Allvision IO](https://allvision.io/) in Pittsburgh, PA where I worked on building and training a Faster R-CNN and an SSD model to detect license plates in a video stream. In my 3 months at Allvision, I wrote an end-to-end pipeline to grab the images from the dataset, preprocess them, feed them into my model which produces 2D coordinate bounding boxes which are then sent to OpenALPR for license plate character recognition. My model performed quite well on Pittsburgh's Strip District and East Liberty datasets which were the only two available to me at the time. 
 
 <p align="center">
   <img width="700" height="450" src="https://vikasnataraja.github.io/extras/allvision.jpg">
 </p>
-
-<<<<<<< HEAD
 
 
 <p align="center"> 
@@ -86,9 +76,6 @@ In the last couple of years, I have had the opportunity to work on some truly fa
   </strong>
 </p>
 
-=======
-#### My Teaching Experience
->>>>>>> e78f34b7df4b8232373d1ab33c81ce03c9e98a3c
 More recently, I was a Teaching Assistant for a couple of courses - ECEN 2703 Discrete Math for Computer Engineers with Dr. Fabio Somenzi and ATOC 4815 Data Visualization with Python with Dr. Sebastian Schmidt. While both courses were immensely exciting to teach, the latter was so much fun because I had the chance to create new course content and teach Python and Machine Learning to students who had never even heard or experimented with it. It presented a new challenge to me since I mostly run in Computer Science and AV circles where  it is quite safe to assume that people have heard about these kind of topics and brought me back to my roots and forced me to re-learn some topics I had forgotten about. One of my more exciting ventures for sure!
 
 
@@ -118,4 +105,3 @@ In addition to these experiences, I also lead the ADCS Software Engineering Team
 </p>
 
 The fields of Autonomous Vehicles and Machine Learning are some of the most exciting things today. I definitely want to work on these things and if you hear or know of a job opportunity, please feel free to contact me here: [Vikas Nataraja](mailto:viha4393@colorado.edu)
-
