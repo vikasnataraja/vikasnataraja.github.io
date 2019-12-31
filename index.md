@@ -1,5 +1,8 @@
 <p align="center"> 
   <strong>
+    <font size="6" color="0FA4AC">
+<p align="center"> 
+  <strong>
     <font size="6" color="36B7BE">
       Welcome to Vikas's website!
     </font>
@@ -52,7 +55,7 @@ Currently (starting in December 2019), I am working as a Graduate Research Assis
 <p align="center"> 
   <strong>
     <font size="5.5" color="3D91BD">
-        My Internship at an awesome startup in Pittsburgh</br> <i> <font size="4">Summer 2019 </font> </i>
+        My Internship at an awesome startup in Pittsburgh </br> <i> <font size="4"> Summer 2019 </font> </i>
     </font>
   </strong>
 </p>
@@ -68,7 +71,7 @@ In the last couple of years, I have had the opportunity to work on some truly fa
 <p align="center"> 
   <strong>
     <font size="5.5" color="3D91BD">
-        Teaching Assistant <i> <font size="4">Fall 2019 </font> </i>
+        Teaching Assistant <i> <font size="4"> Fall 2019 </font> </i>
     </font>
   </strong>
 </p>
@@ -78,7 +81,7 @@ More recently, I was a Teaching Assistant for a couple of courses - ECEN 2703 Di
 <p align="center"> 
   <strong>
     <font size="5.5" color="3D91BD">
-        Lead Software Engineer - ADCS at Maxwell CubeSat</br> <i> <font size="4">September 2018 - Present</font></i>
+        Lead Software Engineer - ADCS at Maxwell CubeSat </br> <i> <font size="4"> September 2018 - Present</font></i>
     </font>
   </strong>
 </p>
