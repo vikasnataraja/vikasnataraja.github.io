@@ -52,7 +52,7 @@ Currently (starting in December 2019), I am working as a Graduate Research Assis
 <p align="center"> 
   <strong>
     <font size="5.5" color="3D91BD">
-        My Internship at an awesome startup in Pittsburgh </br> <i> <font size="4"> Summer 2019 </font> </i>
+        My Internship at an awesome startup in Pittsburgh <br/> <i> <font size="4"> Summer 2019 </font> </i>
     </font>
   </strong>
 </p>
@@ -78,7 +78,7 @@ More recently, I was a Teaching Assistant for a couple of courses - ECEN 2703 Di
 <p align="center"> 
   <strong>
     <font size="5.5" color="3D91BD">
-        Lead Software Engineer - ADCS at Maxwell CubeSat </br> <i> <font size="4"> September 2018 - Present</font></i>
+        Lead Software Engineer - ADCS at Maxwell CubeSat <br/> <i> <font size="4"> September 2018 - Present</font></i>
     </font>
   </strong>
 </p>
