@@ -18,10 +18,10 @@ Check out my [Github](https://www.github.com/vikasnataraja), connect with me on 
   </strong>
 </p>
 
-
-<p align="center">
+<figure align="center">
   <img width="600" height="550" src="https://vikasnataraja.github.io/extras/cn_tower1.jpg">
-</p>
+    <figcaption> Me at CN Tower in December 2019</figcaption>
+</figure>
 
 
 I am a graduate student at CU Boulder working primarily on autonomous vehicles and writing software for other applications of Deep Learning. On the AVs side, I work on the Perception side of things with camera and lidar data, designing convolutional neural networks to decipher features like humans do on a regular basis.
@@ -42,11 +42,12 @@ I am a graduate student at CU Boulder working primarily on autonomous vehicles a
   </strong>
 </p>
 
-Currently (starting in December 2019), I am working as a Graduate Research Assistant at LASP (the [Laboratory for Atmospheric and Space Phyiscs](http://lasp.colorado.edu/home/)) with [Dr. Sebastian Schmidt](https://www.colorado.edu/atoc/sebastian-schmidt) to implement this research paper: ["Retrieval of Cloud Optical Thickness from Sky-View Camera Images using a Deep Convolutional Neural Network based on Three-Dimensional Radiative Transfer"](https://www.mdpi.com/2072-4292/11/17/1962/htm). The idea is to design a CNN to quickly estimate the Cloud Optical Thickness or COT based on a 3D radiative transfer model. In simpler words, calculate the optical thickness of clouds in images taken from a Sky-View camera by taking into account the radiative transfer (geometry and spectral distribution of radiation) through clouds. This is one of the first times I have had the chance to use Deep Learning in a field other than autonomous vehicles or robotics and I'm very excited for it. The framework/backbone of the model is a [PSPNet](https://arxiv.org/pdf/1612.01105.pdf) which I have experimented with once or twice before but this should give me a chance to dive deep in to the architecture. I'm pretty pumped about it!
-
-<p align="center">
+<figure align="center">
   <img width="700" height="400" src="https://vikasnataraja.github.io/extras/east_campus.jpg">
-</p>
+    <figcaption>The Rocky Mountains in Boulder, CO</figcaption>
+</figure>
+
+Currently (starting in December 2019), I am working as a Graduate Research Assistant at LASP (the [Laboratory for Atmospheric and Space Phyiscs](http://lasp.colorado.edu/home/)) with [Dr. Sebastian Schmidt](https://www.colorado.edu/atoc/sebastian-schmidt) to implement this research paper: ["Retrieval of Cloud Optical Thickness from Sky-View Camera Images using a Deep Convolutional Neural Network based on Three-Dimensional Radiative Transfer"](https://www.mdpi.com/2072-4292/11/17/1962/htm). The idea is to design a CNN to quickly estimate the Cloud Optical Thickness or COT based on a 3D radiative transfer model. In simpler words, calculate the optical thickness of clouds in images taken from a Sky-View camera by taking into account the radiative transfer (geometry and spectral distribution of radiation) through clouds. This is one of the first times I have had the chance to use Deep Learning in a field other than autonomous vehicles or robotics and I'm very excited for it. The framework/backbone of the model is a [PSPNet](https://arxiv.org/pdf/1612.01105.pdf) which I have experimented with once or twice before but this should give me a chance to dive deep in to the architecture. I'm pretty pumped about it!
 
 
 <p align="center"> 
@@ -57,12 +58,12 @@ Currently (starting in December 2019), I am working as a Graduate Research Assis
   </strong>
 </p>
 
+<figure align="center">
+  <img width="700" height="450" src="https://vikasnataraja.github.io/extras/allvision.jpg">
+    <figcaption>The team at Allvision IO at an event in the Strip District</figcaption>
+</figure>
 
 In the last couple of years, I have had the opportunity to work on some truly fascinating topics. In the summer of 2019, I interned as a Software Engineer with [Allvision IO](https://allvision.io/) in Pittsburgh, PA where I worked on building and training a Faster R-CNN and an SSD model to detect license plates in a video stream. In my 3 months at Allvision, I wrote an end-to-end pipeline to grab the images from the dataset, preprocess them, feed them into my model which produces 2D coordinate bounding boxes which are then sent to OpenALPR for license plate character recognition. My model performed quite well on Pittsburgh's Strip District and East Liberty datasets which were the only two available to me at the time. 
-
-<p align="center">
-  <img width="700" height="450" src="https://vikasnataraja.github.io/extras/allvision.jpg">
-</p>
 
 
 <p align="center"> 
@@ -83,11 +84,12 @@ More recently, I was a Teaching Assistant for a couple of courses - ECEN 2703 Di
   </strong>
 </p>
 
-In addition to these experiences, I also lead the ADCS Software Engineering Team for the [Maxwell CubeSat mission](https://www.colorado.edu/project/maxwellcubesat/our-mission) where I work on Attitude Determination and Control Systems problems for the satellite. Specifically, I develop Flight Software to use perception (from sensors) and control the motion of the satellite using actuators. Currently, it is scheduled to be delivered to the US Air Force Research Lab by the Summer of 2020 and a tentative launch date in the Spring of 2021. The biggest reason why I joined this project in the first place in spite of it not being my focus area was the opportunity to take my work on Perception systems in AVs and use them in the real world and learn about control systems which isn't particularly my cup of tea. Plus, we get to launch an actual satellite that will fly in space which is pretty cool!
-
-<p align="center">
+<figure align="center">
   <img width="700" height="400" src="https://vikasnataraja.github.io/extras/maxwell.jpg">
-</p>
+    <figcaption>The MAXWELL Team, Fall 2019</figcaption>
+</figure>
+
+In addition to these experiences, I also lead the ADCS Software Engineering Team for the [Maxwell CubeSat mission](https://www.colorado.edu/project/maxwellcubesat/our-mission) where I work on Attitude Determination and Control Systems problems for the satellite. Specifically, I develop Flight Software to use perception (from sensors) and control the motion of the satellite using actuators. Currently, it is scheduled to be delivered to the US Air Force Research Lab by the Summer of 2020 and a tentative launch date in the Spring of 2021. The biggest reason why I joined this project in the first place in spite of it not being my focus area was the opportunity to take my work on Perception systems in AVs and use them in the real world and learn about control systems which isn't particularly my cup of tea. Plus, we get to launch an actual satellite that will fly in space which is pretty cool!
 
 
 
