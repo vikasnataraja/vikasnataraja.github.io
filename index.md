@@ -19,7 +19,7 @@ Check out my [Github](https://www.github.com/vikasnataraja), connect with me on 
 </p>
 
 <figure align="center">
-  <img width="600" height="550" src="https://vikasnataraja.github.io/extras/cn_tower.jpg">
+  <img width="600" height="680" src="https://vikasnataraja.github.io/extras/cn_tower.jpg">
     <figcaption> Me at Toronto's CN Tower in December 2019</figcaption>
 </figure>
 
