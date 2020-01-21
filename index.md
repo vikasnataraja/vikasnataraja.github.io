@@ -1,14 +1,12 @@
 <p align="center"> 
   <strong>
     <font size="6" color="36B7BE">
-      Welcome to Vikas's website!
+      Welcome to my website!
     </font>
   </strong>
 </p>
 
-Hey there! I'm Vikas Nataraja, a graduate student working on autonomous vehicles at the University of Colorado Boulder. 
-
-Check out my [Github](https://www.github.com/vikasnataraja), connect with me on [LinkedIn](https://www.linkedin.com/in/vikas-hanasoge-nataraja/) and [Twitter](http://twitter.com/vikasnataraja). 
+Hey there! I'm Vikas Nataraja, a graduate student working on autonomous vehicles at the University of Colorado Boulder. I design and experiment with various Machine Learning and Deep Learning algorithms and models, particularly in the field of self-driving. So if you want to talk about self-driving vehicles, machine learning, how vim is better than emacs, soccer, hit me up! [Email me](mailto:viha4393@colorado.edu), connect with me on [LinkedIn](https://www.linkedin.com/in/vikas-hanasoge-nataraja/) or follow me on [Twitter](http://twitter.com/vikasnataraja) and check out my [Github](https://www.github.com/vikasnataraja)!
 
 <p align="center"> 
   <strong>
@@ -102,3 +100,4 @@ In addition to these experiences, I also lead the ADCS Software Engineering Team
 </p>
 
 The fields of Autonomous Vehicles and Machine Learning are some of the most exciting things today. I definitely want to work on these things and if you hear or know of a job opportunity, please feel free to contact me here: [Vikas Nataraja](mailto:viha4393@colorado.edu)
+
