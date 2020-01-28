@@ -99,5 +99,5 @@ In addition to these experiences, I also lead the ADCS Software Engineering Team
   </strong>
 </p>
 
-The fields of Autonomous Vehicles and Machine Learning are some of the most exciting things today. I definitely want to work on these things and if you hear or know of a job opportunity, please feel free to contact me here: [Vikas Nataraja](mailto:viha4393@colorado.edu)
+The fields of Autonomous Vehicles and Machine Learning are some of the most exciting things today and I definitely want to work on these things. If you hear or know of a job opportunity, please feel free to contact me here: [Email me](mailto:viha4393@colorado.edu) 
 
