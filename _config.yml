@@ -1,3 +1,8 @@
 theme: jekyll-theme-cayman
 title: Vikas Nataraja
 email: viha4393@colorado.edu
+description: Testing out the new description.
+baseurl: ''
+url: https://vikasnataraja.github.io/
+twitter_username: vikasnataraja
+github_username: vikasnataraja
