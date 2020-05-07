@@ -1,0 +1,83 @@
+---
+layout: default
+---
+<!-- Image Hover Effect by: Mert Cukuren
+Original available here: https://codepen.io/knyttneve/pen/YgZbLO -->
+<!DOCTYPE html>
+<html>
+<style>
+.container {
+  display: flex;
+  width: 100%;
+  padding: 4% 2%;
+  box-sizing: border-box;
+  height: 100vh;
+}
+
+.box {
+  flex: 1;
+  overflow: hidden;
+  transition: .5s;
+  margin: 0 2%;
+  box-shadow: 0 20px 30px rgba(0,0,0,.1);
+  line-height: 0;
+}
+
+.box > img {
+  width: 200%;
+  height: calc(100% - 10vh);
+  object-fit: cover;
+  transition: .5s;
+}
+
+.box > span {
+  font-size: 3.8vh;
+  display: block;
+  text-align: center;
+  height: 10vh;
+  line-height: 2.6;
+}
+
+.box:hover { flex: 1 1 50%; }
+.box:hover > img {
+  width: 100%;
+  height: 100%;
+}
+</style>
+<body>
+  <div class="container">
+    <!-- <div class="box">
+      <img src="/assets/img/gallery/east_campus.jpg">
+      <span>Rocky Mountains</span>
+    </div> -->
+    <div class="box">
+      <img src="/assets/img/gallery/pitt_skyline.jpg">
+      <span>Pittsburgh Skyline</span>
+    </div>
+    <div class="box">
+      <img src="/assets/img/gallery/niagara.jpg">
+      <span>Niagara Falls</span>
+    </div>
+    <div class="box">
+      <img src="/assets/img/gallery/point_cafe.jpg">
+      <span>Point Cafe</span>
+    </div>
+    <!-- <div class="box">
+      <img src="/assets/img/gallery/tempe_river.jpg">
+      <span>Tempe River</span>
+    </div> -->
+    <div class="box">
+      <img src="/assets/img/gallery/cali_beach.jpg">
+      <span>California Spanish Bay</span>
+    </div>
+    <div class="box">
+      <img src="/assets/img/gallery/golden_gate_bridge.jpg">
+      <span>Golden Gate Bridge</span>
+    </div>
+    <div class="box">
+      <img src="/assets/img/gallery/highland_park.jpg">
+      <span>Highland Park, PA</span>
+    </div>
+  </div>
+</body>
+</html>
