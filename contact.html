@@ -4,11 +4,10 @@ layout: default
 
 <!DOCTYPE html>
 <html>
-<head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Roboto, sans-serif;
 }
 
 * {
@@ -68,7 +67,6 @@ input[type=submit]:hover {
   }
 }
 </style>
-</head>
 <body>
 
 <h1 align="center">&bull; Get in Touch! &bull;</h1>
@@ -83,14 +81,14 @@ input[type=submit]:hover {
       <img src="assets/img/chapmans_peak.jpg" style="width:100%">
     </div> -->
     <div>
-      <form action="mailto:viha4393@colorado.edu">
-        <label for="fname">Name</label>
-        <input type="text" id="name" name="name" placeholder="Your name...">
-        <label for="fname">Email</label>
-        <input type="text" id="email" name="email" placeholder="hello@email.com">
-        <label for="subject">Subject</label>
-        <textarea id="subject" name="subject" placeholder="Hey there!" style="height:170px"></textarea>
-        <input type="submit" value="Submit">
+      <form method="post" action="/submit_form.php" >
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your name..." />
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" placeholder="hello@email.com" />
+        <label for="message">Subject</label>
+        <textarea id="message" name="message" placeholder="Hey there!" style="height:170px"></textarea>
+        <input type="submit" id="submit" name="submit" value="Submit" />
       </form>
     </div>
   <!-- </div> -->
