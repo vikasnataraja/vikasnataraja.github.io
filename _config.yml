@@ -173,6 +173,7 @@ paginate: 5
 kramdown:
   input: GFM
 
+future: true #show posts dated in the future
 # Default YAML values (more information on Jekyll's site)
 defaults:
   -

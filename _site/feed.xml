@@ -11,10 +11,22 @@
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Welcome to my blog!</title>
+        <description>
+          A little about me and a look at what's to come - 
+          Hello and welcome to my blog! I’m Vikas and I am a research assistant at the Laboratory for Atmospheric Physics in Boulder, CO, working with mostly machine learning. My main focus though is with robotics and autonomous vehicles and because of that, I get to do a lot of cool...
+        </description>
+        <pubDate>Sun, 10 May 2020 00:00:00 -0600</pubDate>
+        <link>http://localhost:4000/2020-05-10-welcome/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020-05-10-welcome/</guid>
+      </item>
+    
+      <item>
         <title>Basics of Reinforcement Learning</title>
         <description>
           Q-function, policies and rewards - 
-          Welcome to my very first blog on this new revamped website! I decided to write this blog about Reinforcement Learning because it is an area of Artificial Intelligence that I am absolutely fascinated by! The applications of RL are quite simply beyond what I can imagine and so in this...
+          Coming Soon!
+
         </description>
         <pubDate>Wed, 06 May 2020 00:00:00 -0600</pubDate>
         <link>http://localhost:4000/2020-05-06-Basics-of-RL/</link>
