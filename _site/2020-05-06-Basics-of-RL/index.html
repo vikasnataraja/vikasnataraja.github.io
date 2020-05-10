@@ -1,5 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- Support for Latex and inline Latex -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_CHTML"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+tex2jax: {
+inlineMath: [['$','$'], ['\\(','\\)']],
+processEscapes: true},
+jax: ["input/TeX","input/MathML","input/AsciiMath","output/CommonHTML"],
+extensions: ["tex2jax.js","mml2jax.js","asciimath2jax.js","MathMenu.js","MathZoom.js","AssistiveMML.js", "[Contrib]/a11y/accessibility-menu.js"],
+TeX: {
+extensions: ["AMSmath.js","AMSsymbols.js","noErrors.js","noUndefined.js"],
+equationNumbers: {
+autoNumber: "AMS"
+}
+}
+});
+</script>
   <!-- Beautiful Jekyll | MIT license | Copyright Dean Attali 2020 -->
   <head>
   <meta charset="utf-8">
@@ -228,7 +245,7 @@
 
 
   
-  <span class="reader-time post-meta"><span class="d-none d-md-inline middot">&middot;</span> &lt; 1 minute read</span>
+  <span class="reader-time post-meta"><span class="d-none d-md-inline middot">&middot;</span> 1 minute read</span>
 
 
           
@@ -263,7 +280,7 @@
 
 
   
-  <span class="reader-time post-meta"><span class="d-none d-md-inline middot">&middot;</span> &lt; 1 minute read</span>
+  <span class="reader-time post-meta"><span class="d-none d-md-inline middot">&middot;</span> 1 minute read</span>
 
 
           
@@ -293,7 +310,16 @@
 
 <p>Simply put, Reinforcement Learning is where an agent in an environment is trying to maximize or optimize the way it behaves to achieve a certain <em>reward</em>. But wait, what is this “agent” and what is this “reward”? To answer that, let’s consider an example:</p>
 
-<p>You’re playing fetch with your dog and every time she (that’s right, <strong>she</strong>) brings the ball back to you, you give it a treat. Not that you should play this game for long because you would run out of treats pretty soon but in this scenario, the dog is the agent. She knows that every time she’s successful in bringing the ball back to you, she gets a treat. So you could say, she is trying to get the reward (treat) by taking some action (fetching the ball).</p>
+<p>You’re playing fetch with your dog and every time she brings the ball back to you, you give her a treat. Not that you should play this game for long because you would run out of treats pretty soon but in this scenario, the dog is the agent. She knows that every time she’s successful in bringing the ball back to you, she gets a treat. So you could say, she is trying to get the reward (treat) by taking some action (fetching the ball).</p>
+
+<figure align="center">
+  <img width="500" height="300" src="/assets/img/basics_rl/dog_fetch.jpg" />
+    <figcaption> Dog playing fetch :) Source: KDNuggets</figcaption>
+</figure>
+
+<p>Mathematically, we can represent it as $r_t$ referring to reward at timestep $t$.</p>
+
+<p>Now that we have some notion of a reward, let’s move on to a couple of extended topics: discount factor and discounted cumulative rewards. Now, stay with me here, it may sound complicated but it’s really not. To explain these, let’s take another example - chess. In chess, the goal is to surround the opponent and make it impossible to escape. In other words, checkmate. To that end, you make moves (taking actions) that can perhaps result in you losing a pawn or another chess piece but may allow you to eventually win the game. So, in a sense, you are playing the long-game and thinking ahead even if it’s only a couple of moves ahead. In RL, that’s what the discount factor $\gamma$ is for - to decide how much importnace should be given to future rewards compared to immediate rewards. Setting $\gamma=1$ means the agent will evaluate each of its actions based on the sum total of all its future rewards. <a href="https://stackoverflow.com/a/54346760/12623546">This StackOverflow answer</a> does very well to explain the difference $\gamma=0.9$ makes compared to $\gamma=0.99$. But we will cover this in a later blog.</p>
 
       </article>
 
