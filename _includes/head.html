@@ -1,5 +1,6 @@
 <head>
   <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <title>{% if page.use-site-title %}{{ site.title }} {{ site.title-separator | default: '-' }} {{ site.description }}{% elsif page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
@@ -12,6 +13,9 @@
   <meta name="description" content="{{ page.subtitle }}">
   {% endif %}
 
+  <link rel="shortcut icon" type="image/png" href="/assets/img/icons/192x192.png">
+  <link rel="shortcut icon" sizes="196x196" href="/assets/img/icons/192x192.png">
+  <link rel="apple-touch-icon" href="/assets/img/icons/apple-touch-icon.png">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | default: 'Untitled' }} {{ site.title-separator | default: '-' }} {{ site.description }}" href="{{ '/feed.xml' | absolute_url }}">
 
   {% include gtag.html %}

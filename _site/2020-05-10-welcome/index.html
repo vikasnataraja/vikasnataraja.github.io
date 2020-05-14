@@ -1,25 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-<!-- Support for Latex and inline Latex -->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_CHTML"></script>
-<script type="text/x-mathjax-config">
-MathJax.Hub.Config({
-tex2jax: {
-inlineMath: [['$','$'], ['\\(','\\)']],
-processEscapes: true},
-jax: ["input/TeX","input/MathML","input/AsciiMath","output/CommonHTML"],
-extensions: ["tex2jax.js","mml2jax.js","asciimath2jax.js","MathMenu.js","MathZoom.js","AssistiveMML.js", "[Contrib]/a11y/accessibility-menu.js"],
-TeX: {
-extensions: ["AMSmath.js","AMSsymbols.js","noErrors.js","noUndefined.js"],
-equationNumbers: {
-autoNumber: "AMS"
-}
-}
-});
-</script>
+  <!-- Support for Latex and inline Latex -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_CHTML"></script>
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+    tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$']],
+    processEscapes: true},
+    jax: ["input/TeX","input/MathML","input/AsciiMath","output/CommonHTML"],
+    extensions: ["tex2jax.js","mml2jax.js","asciimath2jax.js","MathMenu.js","MathZoom.js","AssistiveMML.js"],
+    TeX: {
+    extensions: ["AMSmath.js","AMSsymbols.js","noErrors.js","noUndefined.js"],
+    // toggle numbering equations
+    equationNumbers: {
+    autoNumber: "AMS"
+    }
+    }
+    });
+  </script>
   <!-- Beautiful Jekyll | MIT license | Copyright Dean Attali 2020 -->
   <head>
   <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <title>Welcome to my blog!</title>
@@ -32,6 +35,9 @@ autoNumber: "AMS"
   <meta name="description" content="A little about me and a look at what's to come">
   
 
+  <link rel="shortcut icon" type="image/png" href="/assets/img/icons/192x192.png">
+  <link rel="shortcut icon" sizes="196x196" href="/assets/img/icons/192x192.png">
+  <link rel="apple-touch-icon" href="/assets/img/icons/apple-touch-icon.png">
   <link rel="alternate" type="application/rss+xml" title="Machine Learning and Coffee Chronicles - Machine Learning | Autonomous Vehicles | Coffee" href="http://localhost:4000/feed.xml">
 
   
@@ -62,7 +68,7 @@ autoNumber: "AMS"
 
     
       
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,700;1,900">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900">
 
 
     
@@ -305,7 +311,9 @@ autoNumber: "AMS"
       <article role="main" class="blog-post" align="justify">
         <p>Hello and welcome to my blog! I’m Vikas and I am a research assistant at the Laboratory for Atmospheric Physics in Boulder, CO, working with mostly machine learning. My main focus though is with robotics and autonomous vehicles and because of that, I get to do a lot of cool stuff. I just finished my Master’s program from the University of Colorado Boulder and over the course of those two years, I was involved in a lot of things, met some amazing people and learned a lot. I worked on all sorts of things, ranging from building autonomous vehicles to making robots understand facial expressions.</p>
 
-<p>Now, as the title “Machine Learning and Coffee Chronicles” suggests, this blog will mostly be a place for me to talk about machine learning in general, dive into some details about reinforcement learning and definitely and obviously, coffee! I have a lot of things planned for this website, things to talk about, things to improve on and a lot of other things. Convolutional Neural Networks, Computer Vision, Robotics are only some of the other tech things I’d like to talk about. Lattes, top coffee places in Boulder, Pittsburgh, best ways to make coffee are some of the things I have planned for the coffee side of things. I’ll be publishing my first blog on this revamped website (thanks <a href="https://beautifuljekyll.com">BeautifulJekyll</a>) about the basics of reinforcement learning so stay tuned for that. Speaking of websites, I am not a web developer and my knowledge of HTML and CSS are limited although I want to change that. So, as I learn more of that, this website will become better and I might even blog about that! If you have a topic in mind that you’d like me to talk about and blog about, please <a href="/contact">reach out to me</a>! But for now, that’s all I have, thanks for stopping by and I’ll see you next week with my first blog and a cup of coffee!</p>
+<p>Now, as the title “Machine Learning and Coffee Chronicles” suggests, this blog will mostly be a place for me to talk about machine learning in general, dive into some details about reinforcement learning and definitely and obviously, coffee! I have a lot of things planned for this website, things to talk about, things to improve on and a lot of other things. Convolutional Neural Networks, Computer Vision, Robotics are only some of the other tech things I’d like to talk about and I’ll call that the <mark>AI-Series</mark>. Lattes, top coffee places in Boulder, Pittsburgh, best ways to make coffee are some of the things I have planned for the coffee side of things which I’ll call <mark>Today's Brew</mark>. I will also be starting a series for books called <mark>BookClub</mark> where I’ll talk about some books I read.</p>
+
+<p>I’ll be publishing my first blog on this revamped website (thanks <a href="https://beautifuljekyll.com">BeautifulJekyll</a>) about the basics of reinforcement learning so stay tuned for that. Speaking of websites, I am not a web developer and my knowledge of HTML and CSS are limited although I want to change that. So, as I learn more of that, this website will become better and I might even blog about that! If you have a topic in mind that you’d like me to talk about and blog about, please <a href="/contact">reach out to me</a>! But for now, that’s all I have, thanks for stopping by and I’ll see you next week with my first blog and a cup of coffee!</p>
 
 <p>Cover image credit: <a href="https://twitter.com/TheGoldenRatio4">GoldenRatio4</a></p>
 
@@ -365,14 +373,30 @@ autoNumber: "AMS"
 
       <ul class="pagination blog-pager">
         
-        <li class="page-item previous">
-          <a class="page-link" href="/2020-05-06-Basics-of-RL/" data-toggle="tooltip" data-placement="top" title="Basics of Reinforcement Learning">&larr; Previous Post</a>
-        </li>
         
+        <li class="page-item next">
+          <a class="page-link" href="/2020-05-13-Basics-of-RL/" data-toggle="tooltip" data-placement="top" title="Basics of Reinforcement Learning">Next Post &rarr;</a>
+        </li>
         
       </ul>
               
-  
+  <div class="disqus-comments">
+  <div class="comments">
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+	  var disqus_shortname = 'vikasnataraja';
+	  /* ensure that pages with query string get the same discussion */
+	  var url_parts = window.location.href.split("?");
+	  var disqus_url = url_parts[0];
+	  (function() {
+		var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+		dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	  })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  </div>
+</div>
   
   
 

@@ -1,25 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-<!-- Support for Latex and inline Latex -->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_CHTML"></script>
-<script type="text/x-mathjax-config">
-MathJax.Hub.Config({
-tex2jax: {
-inlineMath: [['$','$'], ['\\(','\\)']],
-processEscapes: true},
-jax: ["input/TeX","input/MathML","input/AsciiMath","output/CommonHTML"],
-extensions: ["tex2jax.js","mml2jax.js","asciimath2jax.js","MathMenu.js","MathZoom.js","AssistiveMML.js", "[Contrib]/a11y/accessibility-menu.js"],
-TeX: {
-extensions: ["AMSmath.js","AMSsymbols.js","noErrors.js","noUndefined.js"],
-equationNumbers: {
-autoNumber: "AMS"
-}
-}
-});
-</script>
+  <!-- Support for Latex and inline Latex -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_CHTML"></script>
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+    tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$']],
+    processEscapes: true},
+    jax: ["input/TeX","input/MathML","input/AsciiMath","output/CommonHTML"],
+    extensions: ["tex2jax.js","mml2jax.js","asciimath2jax.js","MathMenu.js","MathZoom.js","AssistiveMML.js"],
+    TeX: {
+    extensions: ["AMSmath.js","AMSsymbols.js","noErrors.js","noUndefined.js"],
+    // toggle numbering equations
+    equationNumbers: {
+    autoNumber: "AMS"
+    }
+    }
+    });
+  </script>
   <!-- Beautiful Jekyll | MIT license | Copyright Dean Attali 2020 -->
   <head>
   <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <title>Machine Learning and Coffee Chronicles</title>
@@ -30,6 +33,9 @@ autoNumber: "AMS"
 
   
 
+  <link rel="shortcut icon" type="image/png" href="/assets/img/icons/192x192.png">
+  <link rel="shortcut icon" sizes="196x196" href="/assets/img/icons/192x192.png">
+  <link rel="apple-touch-icon" href="/assets/img/icons/apple-touch-icon.png">
   <link rel="alternate" type="application/rss+xml" title="Machine Learning and Coffee Chronicles - Machine Learning | Autonomous Vehicles | Coffee" href="http://localhost:4000/feed.xml">
 
   
@@ -60,7 +66,7 @@ autoNumber: "AMS"
 
     
       
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,700;1,900">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900">
 
 
     
@@ -213,6 +219,17 @@ autoNumber: "AMS"
   
     <article class="post">
 
+      <h1><a href="/2020-05-13-Basics-of-RL/">Basics of Reinforcement Learning</a></h1>
+
+      <div class="entry">
+        <p>Welcome to my very first blog on this revamped website! I decided to write this blog about Reinforcement Learning because it is an area of Artificial Intelligence that I am absolutely fascinated by! From teaching robots how to pick up...
+      </div>
+
+      <a href="/2020-05-13-Basics-of-RL/" class="read-more"> [Read More] </a>
+    </article>
+  
+    <article class="post">
+
       <h1><a href="/2020-05-10-welcome/">Welcome to my blog!</a></h1>
 
       <div class="entry">
@@ -222,20 +239,53 @@ autoNumber: "AMS"
       <a href="/2020-05-10-welcome/" class="read-more"> [Read More] </a>
     </article>
   
-    <article class="post">
-
-      <h1><a href="/2020-05-06-Basics-of-RL/">Basics of Reinforcement Learning</a></h1>
-
-      <div class="entry">
-        <p>Coming Soon!</p>
-
-      </div>
-
-      <a href="/2020-05-06-Basics-of-RL/" class="read-more"> [Read More] </a>
-    </article>
-  
 </div> -->
 <div class="posts">
+  
+  <article class="post-preview">
+    <a href="/2020-05-13-Basics-of-RL/">
+      <h2 class="post-title">Basics of Reinforcement Learning</h2>
+
+      
+        <h3 class="post-subtitle">
+        Q-function, policies and rewards
+        </h3>
+      
+    </a>
+
+    <p class="post-meta">
+      
+      Posted on May 13, 2020
+    </p>
+
+    <div class="post-entry-container">
+      
+      <div class="post-entry" align="justify">
+        
+        Welcome to my very first blog on this revamped website! I decided to write this blog about Reinforcement Learning because it is an area of Artificial Intelligence that I am absolutely fascinated by! From teaching robots how to pick up cans from a table to playing Mario, the applications of...
+        
+        
+          <a href="/2020-05-13-Basics-of-RL/" class="post-read-more">[Read&nbsp;More]</a>
+        
+      </div>
+    </div>
+
+    
+    <div class="blog-tags">
+      Tags:
+      
+      
+      <a href="/tags#rl">rl</a>
+      
+      <a href="/tags#robotics">robotics</a>
+      
+      <a href="/tags#ai-series">ai-series</a>
+      
+      
+    </div>
+    
+
+   </article>
   
   <article class="post-preview">
     <a href="/2020-05-10-welcome/">
@@ -255,7 +305,7 @@ autoNumber: "AMS"
 
     <div class="post-entry-container">
       
-      <div class="post-entry">
+      <div class="post-entry" align="justify">
         
         Hello and welcome to my blog! I’m Vikas and I am a research assistant at the Laboratory for Atmospheric Physics in Boulder, CO, working with mostly machine learning. My main focus though is with robotics and autonomous vehicles and because of that, I get to do a lot of cool...
         
@@ -273,48 +323,6 @@ autoNumber: "AMS"
       <a href="/tags#welcome">welcome</a>
       
       <a href="/tags#other">other</a>
-      
-      
-    </div>
-    
-
-   </article>
-  
-  <article class="post-preview">
-    <a href="/2020-05-06-Basics-of-RL/">
-      <h2 class="post-title">Basics of Reinforcement Learning</h2>
-
-      
-        <h3 class="post-subtitle">
-        Q-function, policies and rewards
-        </h3>
-      
-    </a>
-
-    <p class="post-meta">
-      
-      Posted on May 6, 2020
-    </p>
-
-    <div class="post-entry-container">
-      
-      <div class="post-entry">
-        
-        Coming Soon!
-
-        
-        
-      </div>
-    </div>
-
-    
-    <div class="blog-tags">
-      Tags:
-      
-      
-      <a href="/tags#rl">rl</a>
-      
-      <a href="/tags#robotics">robotics</a>
       
       
     </div>
