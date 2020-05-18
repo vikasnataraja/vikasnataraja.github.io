@@ -46,7 +46,7 @@ social-network-links:
   github: vikasnataraja
   twitter: vikasnataraja
   linkedin: vikas-hanasoge-nataraja
-  rss: false
+  rss: true
 #  reddit: yourname
 #  xing: yourname
 #  stackoverflow: "12623546/vikas"
