@@ -40,7 +40,7 @@ a {
 }
 a:hover,
 a:focus {
-  color: #FFFFFF;
+  color: #097AB8;
 }
 blockquote {
   color: #808080;
@@ -81,12 +81,12 @@ hr.small {
 ::-moz-selection {
   color: white;
   text-shadow: none;
-  background-color: #FFFFFF;
+  background-color: #097AB8;
 }
 ::selection {
   color: white;
   text-shadow: none;
-  background-color: #FFFFFF;
+  background-color: #097AB8;
 }
 img::selection {
   color: white;
@@ -119,7 +119,7 @@ img {
 /* --- Navbar --- */
 
 .navbar-custom {
-  background-color: #1CD9D9;
+  background-color: #02d8f0;
   border-bottom: 1px solid #EAEAEA;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   
@@ -173,7 +173,7 @@ img {
 .navbar-custom .navbar-nav .nav-link:focus,
 .navbar-custom .navbar-nav .dropdown-item:hover,
 .navbar-custom .navbar-nav .dropdown-item:focus {
-  color: #FFFFFF;
+  color: #097AB8;
 }
 
 .navbar-custom .navbar-nav .nav-item {
@@ -258,7 +258,7 @@ img {
 .navbar-custom .nav-item.dropdown .dropdown-menu .dropdown-item {
   white-space: normal;
   padding: 0.625rem;
-  background-color: #1CD9D9;
+  background-color: #02d8f0;
   text-decoration: none !important;
   border-width: 0 1px 1px 1px;
   font-weight: normal;
@@ -365,12 +365,12 @@ footer {
   border-top: 1px #EAEAEA solid;
   margin-top: 3.125rem;
   font-size: 0.875rem;
-  background-color: #1CD9D9;
+  background-color: #02d8f0;
   
 }
 
 footer p.text-muted {
-  color: #777777 !important;
+  color: #000000 !important;
 }
 
 footer a {
@@ -438,7 +438,7 @@ footer .footer-custom-content {
 .post-preview a:focus,
 .post-preview a:hover {
   text-decoration: none;
-  color: #FFFFFF;
+  color: #097AB8;
 }
 
 .post-preview .post-title {
@@ -509,7 +509,7 @@ footer .footer-custom-content {
 
 .blog-tags a:hover {
   border-radius: 2px;
-  color: #FFFFFF;
+  color: #097AB8;
   background-color: #EEE;
 }
 
@@ -623,7 +623,7 @@ footer .footer-custom-content {
     margin-top: 8.125rem;
   }
   .intro-header.big-img {
-    margin-top: 5.6875rem; /* Full navbar is small navbar + 20px padding on each side when expanded */
+    margin-top: 0.6875rem; /* Full navbar is small navbar + 20px padding on each side when expanded */
   }
   .intro-header.big-img .page-heading,
   .intro-header.big-img .post-heading {
@@ -746,8 +746,8 @@ footer .footer-custom-content {
 .pagination .page-item .page-link:hover,
 .pagination .page-item .page-link:focus {
   color: #FFF;
-  border: 1px solid #FFFFFF;
-  background-color: #FFFFFF;
+  border: 1px solid #097AB8;
+  background-color: #097AB8;
 }
 
 /* --- Tables --- */

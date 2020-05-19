@@ -1,5 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+<style>
+    .newsletter-container {
+        max-width: 900px;
+        max-height: 300px;
+        border-radius: 1em;
+        display: flex;
+        flex-direction: column;
+        padding: 0.5em 0;
+        background: #052B69;
+        box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2);
+        margin-bottom: 0.5em;
+        margin-top: 0.5em;
+    }
+    .newsletter-container * {
+        align-self: center;
+        padding: 0;
+    }
+    .newsletter-form {
+        text-align: center;
+    }
+    .newsletter-title {
+        font-size: 0.5em;
+        margin: 0;
+        color: #fff;
+        font-family: ;
+    }
+    .newsletter-text {
+        font-size: 0.5em
+        font-family: $lato;
+        font-weight: 500;
+        color: #fff;
+        text-align: center;
+    }
+    .newsletter-email,
+    .newsletter-submit {
+        display: inline-block;
+        border-radius: 4px;
+        padding: 0;
+        align-self: center;
+    }
+    .newsletter-email {
+        font-family: $serif-primary;
+        text-align: center;
+        font-size: .9em;
+    }
+    .newsletter-submit {
+        font-size: .6em;
+        margin-left: 1em;
+        padding: 0.5em;
+        border: none;
+        background: #F0DF29;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+
+    @media screen and (min-width: 400px) {
+        .newsletter-title {
+            font-size: 2.5em;
+        }
+        .newsletter-text {
+            font-size: 1.5em;
+        }
+        .newsletter-submit {
+            font-size: .7em;
+        }
+    }
+</style>
+
   <!-- Support for Latex and inline Latex -->
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_CHTML"></script>
   <script type="text/x-mathjax-config">
@@ -24,7 +92,10 @@
 
 ---
 <!DOCTYPE html>
+<html>
 <head>
+  <!-- Google: google-site-verification -->
+  <meta name="google-site-verification" content="Igdg61QIdwtXyb4IaoCnImb9X5Sf2ZeJpCwK2cugP1E" />
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -173,11 +244,12 @@
 <meta property="og:url" content="http://localhost:4000/404.html" />
 <meta property="og:site_name" content="Machine Learning and Coffee Chronicles" />
 <script type="application/ld+json">
-{"@type":"WebPage","description":"Machine Learning Autonomous Vehicles Coffee","author":{"@type":"Person","name":"Vikas Nataraja"},"headline":"404 - Page not found","url":"http://localhost:4000/404.html","@context":"https://schema.org"}</script>
+{"@type":"WebPage","headline":"404 - Page not found","author":{"@type":"Person","name":"Vikas Nataraja"},"url":"http://localhost:4000/404.html","description":"Machine Learning Autonomous Vehicles Coffee","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
 </head>
+</html>
 
 
   <body>
@@ -225,7 +297,10 @@
 
 ---
 <!DOCTYPE html>
+<html>
 <head>
+  <!-- Google: google-site-verification -->
+  <meta name="google-site-verification" content="Igdg61QIdwtXyb4IaoCnImb9X5Sf2ZeJpCwK2cugP1E" />
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -341,11 +416,12 @@
 <meta property="og:url" content="http://localhost:4000/404.html" />
 <meta property="og:site_name" content="Machine Learning and Coffee Chronicles" />
 <script type="application/ld+json">
-{"@type":"WebPage","description":"Machine Learning Autonomous Vehicles Coffee","author":{"@type":"Person","name":"Vikas Nataraja"},"headline":"404 - Page not found","url":"http://localhost:4000/404.html","@context":"https://schema.org"}</script>
+{"@type":"WebPage","headline":"404 - Page not found","author":{"@type":"Person","name":"Vikas Nataraja"},"url":"http://localhost:4000/404.html","description":"Machine Learning Autonomous Vehicles Coffee","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
 </head>
+</html>
 
 <div class="intro-header"></div>
 
@@ -366,6 +442,14 @@
     <div class="row">
       <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
       <ul class="list-inline text-center footer-links"><li class="list-inline-item">
+    <a href="/feed.xml" title="RSS">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">RSS</span>
+    </a>
+  </li><li class="list-inline-item">
     <a href="mailto:viha4393@colorado.edu" title="Email me">
       <span class="fa-stack fa-lg" aria-hidden="true">
         <i class="fas fa-circle fa-stack-2x"></i>

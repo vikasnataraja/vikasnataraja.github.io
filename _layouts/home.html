@@ -73,3 +73,23 @@ layout: page
   {% endif %}
 </ul>
 {% endif %}
+
+<div class="newsletter-container" align="center">
+  <!-- <div class="newsletter-title" align="center">Subscribe!</div> -->
+  <!-- <p class="newsletter-text"></p> -->
+  <form class="newsletter-form" action="https://feedburner.google.com/fb/a/mailverify"
+  method="post" target="popupwindow"
+  onsubmit="window.open('https://feedburner.google.com/fb/a/mailverify?uri=MachineLearningAndCoffeeChronicles', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
+
+      <p class="newsletter-text" align="center">Subscribe to get updates about new posts!</p>
+
+      <input type="hidden" value="MachineLearningAndCoffeeChronicles" name="uri" />
+
+      <input type="hidden" name="loc" value="en_US" />
+
+      <input class="newsletter-email" type="text" name="email" placeholder="hey@email.com" />
+
+      <input class="newsletter-submit" type="submit" value="Subscribe" />
+
+  </form>
+</div>

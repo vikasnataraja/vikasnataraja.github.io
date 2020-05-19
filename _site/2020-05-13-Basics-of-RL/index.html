@@ -1,5 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+<style>
+    .newsletter-container {
+        max-width: 900px;
+        max-height: 300px;
+        border-radius: 1em;
+        display: flex;
+        flex-direction: column;
+        padding: 0.5em 0;
+        background: #052B69;
+        box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2);
+        margin-bottom: 0.5em;
+        margin-top: 0.5em;
+    }
+    .newsletter-container * {
+        align-self: center;
+        padding: 0;
+    }
+    .newsletter-form {
+        text-align: center;
+    }
+    .newsletter-title {
+        font-size: 0.5em;
+        margin: 0;
+        color: #fff;
+        font-family: ;
+    }
+    .newsletter-text {
+        font-size: 0.5em
+        font-family: $lato;
+        font-weight: 500;
+        color: #fff;
+        text-align: center;
+    }
+    .newsletter-email,
+    .newsletter-submit {
+        display: inline-block;
+        border-radius: 4px;
+        padding: 0;
+        align-self: center;
+    }
+    .newsletter-email {
+        font-family: $serif-primary;
+        text-align: center;
+        font-size: .9em;
+    }
+    .newsletter-submit {
+        font-size: .6em;
+        margin-left: 1em;
+        padding: 0.5em;
+        border: none;
+        background: #F0DF29;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+
+    @media screen and (min-width: 400px) {
+        .newsletter-title {
+            font-size: 2.5em;
+        }
+        .newsletter-text {
+            font-size: 1.5em;
+        }
+        .newsletter-submit {
+            font-size: .7em;
+        }
+    }
+</style>
+
   <!-- Support for Latex and inline Latex -->
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_CHTML"></script>
   <script type="text/x-mathjax-config">
@@ -24,7 +92,10 @@
 
 ---
 <!DOCTYPE html>
+<html>
 <head>
+  <!-- Google: google-site-verification -->
+  <meta name="google-site-verification" content="Igdg61QIdwtXyb4IaoCnImb9X5Sf2ZeJpCwK2cugP1E" />
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -163,11 +234,12 @@
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2020-05-13T00:00:00-06:00" />
 <script type="application/ld+json">
-{"@type":"BlogPosting","dateModified":"2020-05-13T00:00:00-06:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2020-05-13-Basics-of-RL/"},"description":"Welcome to my very first blog on this revamped website! I decided to write this blog about Reinforcement Learning because it is an area of Artificial Intelligence that I am absolutely fascinated by! From teaching robots how to pick up cans from a table to playing Mario, the applications of RL are limitless. It is a highly active area of research (see Deepmind, Covariant AI) and there are still many things to be explored and discovered. And so in this post, I will attempt to explain the basics of RL and we will gradually move to more complicated concepts in other blog posts.","author":{"@type":"Person","name":"Vikas Nataraja"},"headline":"Basics of Reinforcement Learning","url":"http://localhost:4000/2020-05-13-Basics-of-RL/","datePublished":"2020-05-13T00:00:00-06:00","@context":"https://schema.org"}</script>
+{"@type":"BlogPosting","headline":"Basics of Reinforcement Learning","dateModified":"2020-05-13T00:00:00-06:00","datePublished":"2020-05-13T00:00:00-06:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2020-05-13-Basics-of-RL/"},"author":{"@type":"Person","name":"Vikas Nataraja"},"url":"http://localhost:4000/2020-05-13-Basics-of-RL/","description":"Welcome to my very first blog on this revamped website! I decided to write this blog about Reinforcement Learning because it is an area of Artificial Intelligence that I am absolutely fascinated by! From teaching robots how to pick up cans from a table to playing Mario, the applications of RL are limitless. It is a highly active area of research (see Deepmind, Covariant AI) and there are still many things to be explored and discovered. And so in this post, I will attempt to explain the basics of RL and we will gradually move to more complicated concepts in other blog posts.","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
 </head>
+</html>
 
 
   <body>
@@ -211,7 +283,12 @@
 </nav>
 
 
-    <!-- TODO this file has become a mess, refactor it -->
+    ---
+
+---
+<!DOCTYPE html>
+<html>
+<!-- TODO this file has become a mess, refactor it -->
 
 
 
@@ -243,7 +320,7 @@
       <h2 class="post-subheading">Q-function, policies and rewards</h2>
       
       
-      
+
       
           <span class="post-meta">Posted on May 13, 2020</span>
           
@@ -278,7 +355,7 @@
       <h2 class="post-subheading">Q-function, policies and rewards</h2>
       
       
-      
+
       
           <span class="post-meta">Posted on May 13, 2020</span>
           
@@ -304,6 +381,7 @@
 
 
 
+</html>
 
 
 <div class="container-md">
@@ -512,6 +590,14 @@
     <div class="row">
       <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
       <ul class="list-inline text-center footer-links"><li class="list-inline-item">
+    <a href="/feed.xml" title="RSS">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">RSS</span>
+    </a>
+  </li><li class="list-inline-item">
     <a href="mailto:viha4393@colorado.edu" title="Email me">
       <span class="fa-stack fa-lg" aria-hidden="true">
         <i class="fas fa-circle fa-stack-2x"></i>
