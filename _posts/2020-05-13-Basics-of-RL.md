@@ -19,7 +19,7 @@ To answer that question, let's consider an example:
 You're playing fetch with your dog and every time she brings the ball back to you, you give her a treat. Not that you should play this game for long because you would run out of treats pretty soon but in this scenario, the dog is the agent. She knows that every time she's successful in bringing the ball back to you, she gets a treat. So you could say, the agent (the dog) is trying to get the maximum reward (treat) by taking some action (fetching the ball).
 
 <figure align="center">
-  <img width="500" height="300" src="/assets/img/basics_rl/dog_fetch.jpg">
+  <img width="500" height="300" src="/assets/img/basics_rl/dog_fetch.jpg" alt="Dog Reinforcement Learning">
     <figcaption> Dog playing fetch :) Source: KDNuggets</figcaption>
 </figure>
 
@@ -37,7 +37,7 @@ Using this discount factor $\gamma$ in our rewards, we can now describe our disc
 So, all this equation is saying is the farther away a reward is, scale that reward appropriately. If we choose $\gamma=1$, then we weigh all future rewards equally. Choosing $\gamma=0.9$ weighs the rewards in the immediate future heavier than the rewards in the distant future. Depending on the environment we're in, we tune our discount factor differently.
 
 <figure align="center">
-  <img width="500" height="550" src="/assets/img/basics_rl/rewards_meme.jpg">
+  <img width="500" height="550" src="/assets/img/basics_rl/rewards_meme.jpg" alt="Future rewards meme">
 </figure>
 
 <p><strong>Policies</strong></p>
@@ -77,7 +77,7 @@ Similarly, we can write the Bellman equations for the Q function as:
 So now, we can use these value functions (Bellman equations) to get state-value and action-value at a timestep. Let's say the agent is in state $s$ and decides to take an action $a$ and arrives in *next state* $s'$ and receives reward $r$. Then, it takes an action $a'$ to go to the next state $s''$ and so on.
 
 <figure align="center">
-  <img width="500" height="300" src="/assets/img/basics_rl/transition.png">
+  <img width="500" height="300" src="/assets/img/basics_rl/transition.png" alt="Q-learning update step">
     <figcaption> Update step </figcaption>
 </figure>
 
@@ -97,7 +97,7 @@ The updated value functions give us the final pieces of the RL puzzle by actuall
 The agent is deployed in an environment that has some **states $s$ and some actions $a$**. While the agent doesn't have direct control over which state it moves to, it does have control over the actions which when taken results in the transition to a new state $s'$.
 
 <figure align="center">
-  <img width="650" height="300" src="/assets/img/basics_rl/rl_schematic.png">
+  <img width="650" height="300" src="/assets/img/basics_rl/rl_schematic.png" alt="Reinforcement Learning Schematic">
     <figcaption>Schematic representation of an RL agent. Source: Sutton and Barto</figcaption>
 </figure>
 
