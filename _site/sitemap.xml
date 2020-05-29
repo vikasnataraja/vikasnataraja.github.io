@@ -3,6 +3,21 @@
   
     
     <url>
+      <loc>http://localhost:4000/2020-05-31-bookclub-educated-westover/</loc>
+      
+        <lastmod>2020-05-31T00:00:00-06:00</lastmod>
+      
+      
+        <changefreq>weekly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
       <loc>http://localhost:4000/2020-05-13-Basics-of-RL/</loc>
       
         <lastmod>2020-05-13T00:00:00-06:00</lastmod>
@@ -34,39 +49,9 @@
   
     
     <url>
-      <loc>http://localhost:4000/archive/2020-02-26-flake-it-till-you-make-it/</loc>
-      
-        <lastmod>2020-05-19T13:19:18-06:00</lastmod>
-      
-      
-        <changefreq>weekly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://localhost:4000/archive/2020-02-28-test-markdown/</loc>
-      
-        <lastmod>2020-05-19T13:19:18-06:00</lastmod>
-      
-      
-        <changefreq>weekly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
       <loc>http://localhost:4000/404.html</loc>
       
-        <lastmod>2020-05-19T13:19:18-06:00</lastmod>
+        <lastmod>2020-05-29T09:53:15-06:00</lastmod>
       
       
         <changefreq>weekly</changefreq>
@@ -81,7 +66,7 @@
     <url>
       <loc>http://localhost:4000/about/</loc>
       
-        <lastmod>2020-05-19T13:19:18-06:00</lastmod>
+        <lastmod>2020-05-29T09:53:15-06:00</lastmod>
       
       
         <changefreq>weekly</changefreq>
@@ -96,7 +81,7 @@
     <url>
       <loc>http://localhost:4000/blog/</loc>
       
-        <lastmod>2020-05-19T13:19:18-06:00</lastmod>
+        <lastmod>2020-05-29T09:53:15-06:00</lastmod>
       
       
         <changefreq>weekly</changefreq>
@@ -111,7 +96,7 @@
     <url>
       <loc>http://localhost:4000/contact/</loc>
       
-        <lastmod>2020-05-19T13:19:18-06:00</lastmod>
+        <lastmod>2020-05-29T09:53:15-06:00</lastmod>
       
       
         <changefreq>weekly</changefreq>
@@ -126,7 +111,7 @@
     <url>
       <loc>http://localhost:4000/feed.xml</loc>
       
-        <lastmod>2020-05-19T13:19:18-06:00</lastmod>
+        <lastmod>2020-05-29T09:53:15-06:00</lastmod>
       
       
         <changefreq>weekly</changefreq>
@@ -141,7 +126,7 @@
     <url>
       <loc>http://localhost:4000/gallery/</loc>
       
-        <lastmod>2020-05-19T13:19:18-06:00</lastmod>
+        <lastmod>2020-05-29T09:53:15-06:00</lastmod>
       
       
         <changefreq>weekly</changefreq>
@@ -156,7 +141,7 @@
     <url>
       <loc>http://localhost:4000/</loc>
       
-        <lastmod>2020-05-19T13:19:18-06:00</lastmod>
+        <lastmod>2020-05-29T09:53:15-06:00</lastmod>
       
       
         <changefreq>weekly</changefreq>
@@ -171,7 +156,7 @@
     <url>
       <loc>http://localhost:4000/assets/css/main.css</loc>
       
-        <lastmod>2020-05-19T13:19:18-06:00</lastmod>
+        <lastmod>2020-05-29T09:53:15-06:00</lastmod>
       
       
         <changefreq>weekly</changefreq>
@@ -188,7 +173,7 @@
     <url>
       <loc>http://localhost:4000/assets/js/staticman.js</loc>
       
-        <lastmod>2020-05-19T13:19:18-06:00</lastmod>
+        <lastmod>2020-05-29T09:53:15-06:00</lastmod>
       
       
         <changefreq>weekly</changefreq>
@@ -203,7 +188,7 @@
     <url>
       <loc>http://localhost:4000/tags/</loc>
       
-        <lastmod>2020-05-19T13:19:18-06:00</lastmod>
+        <lastmod>2020-05-29T09:53:15-06:00</lastmod>
       
       
         <changefreq>weekly</changefreq>
