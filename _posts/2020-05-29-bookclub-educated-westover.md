@@ -3,6 +3,7 @@ layout: post
 title: BookClub - Educated by Tara Westover
 subtitle: My thoughts on Tara Westover's powerful memoir
 cover-img: /assets/img/educated/cover-educated.jpeg
+tags: [bookclub]
 ---
 
 I don't know if it's because this is the first book I've read in more than three years or that it is, by itself, genuine and powerful but *Educated by Tara Westover* is one of the best books I've ever read. It should, of course, come as no surprise when you learn that it has received virtually every accolade one can think of: #1 on the New York Times Non-Fiction Best Seller List, one of President Obama's Favorite Books of 2018, featured on Bill Gates's blog, Apple's Best Memoir of 2018 - need I go on?
