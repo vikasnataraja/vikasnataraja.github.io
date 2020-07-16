@@ -2,13 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     
-    <title>Machine Learning and Coffee Chronicles | Vikas Nataraja</title>
+    <title>Machine Learning and Coffee Chronicles</title>
     
     
     <description>Writing about machine learning, coffee, books and so much more!</description>
     
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>Basics of Convolutional Neural Networks</title>
+        <description>
+          Convolution, filters, layers and feature extraction - 
+          Neural networks have truly transformed the way machine learning and AI in general are perceived and to an extent, researched. They have gone from the fringes of the CS community where only select academics in the late 1980s would publish a paper occasionally to becoming synonymous with artificial intelligence and...
+        </description>
+        <pubDate>Thu, 16 Jul 2020 00:00:00 -0600</pubDate>
+        <link>http://localhost:4000/2020-07-16-Basics-Convolutional-Neural-Networks/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020-07-16-Basics-Convolutional-Neural-Networks/</guid>
+      </item>
     
       <item>
         <title>BookClub - Educated by Tara Westover</title>
