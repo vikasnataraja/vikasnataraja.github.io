@@ -87,16 +87,23 @@ input[type=submit]:hover {
         <label for="name">Name</label>
         <input type="text" id="name" name="name" placeholder="Your name..." />
         <label for="email">Email</label>
-        <input type="text" id="email" name="email" placeholder="hello@email.com" />
+        <input type="text" id="email" name="_replyto" placeholder="hello@email.com" />
         <label for="message">Subject</label>
-        <textarea id="message" name="message" placeholder="Hey there!" style="height:170px"></textarea>
+        <!-- <input type="text" name="_gotcha" style="display:none" /> -->
+        <textarea id="message" name="message" placeholder="Hey there!" style="height:250px"></textarea>
         <input type="submit" id="submit" name="submit" value="Submit" />
+        <!-- <input type="hidden" name="_next" value="/about.html" /> -->
       </form>
     </div>
   <!-- </div> -->
 </div>
-<p align="justify">Please note that since Github-Pages doesn't allow PHP form submission, your message
-will be redirected to my email via a third-party. If you prefer to send me a message directly, Please
-send me an email at viha4393@colorado.edu</p>
+<br/>
+<br/>
+<bt/>
+<p align="justify">P.S. Something interesting I found while I was trying to creating this contact page was that Github doesn't
+allow PHP form submission. And since this website is hosted via Github, I had to find a third-party page called FormSpree to create this form.
+That was pretty easy but I'm not entirely sure why a company like Github whose goal is to open-source stuff doesn't allow it in the
+first place (my guess would be privacy and data collection reasons) because that's just an unnecessary extra step. Anyway, thanks for stopping by,
+get in touch with me if you want to have a chat!</p>
 </body>
 </html>
