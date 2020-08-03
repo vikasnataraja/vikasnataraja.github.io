@@ -3,6 +3,51 @@
   
     
     <url>
+      <loc>http://localhost:4000/2020-08-10-Recurrent-Neural-Networks/</loc>
+      
+        <lastmod>2020-08-10T00:00:00-06:00</lastmod>
+      
+      
+        <changefreq>weekly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:4000/2020-08-03-Bias-Variance-Machine-Learning/</loc>
+      
+        <lastmod>2020-08-03T00:00:00-06:00</lastmod>
+      
+      
+        <changefreq>weekly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:4000/2020-07-30-SVM-Machine-Learning/</loc>
+      
+        <lastmod>2020-07-30T00:00:00-06:00</lastmod>
+      
+      
+        <changefreq>weekly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
       <loc>http://localhost:4000/2020-07-16-Basics-Convolutional-Neural-Networks/</loc>
       
         <lastmod>2020-07-16T00:00:00-06:00</lastmod>
@@ -66,7 +111,7 @@
     <url>
       <loc>http://localhost:4000/404.html</loc>
       
-        <lastmod>2020-07-16T15:56:32-06:00</lastmod>
+        <lastmod>2020-08-02T18:30:29-06:00</lastmod>
       
       
         <changefreq>weekly</changefreq>
@@ -81,7 +126,7 @@
     <url>
       <loc>http://localhost:4000/about/</loc>
       
-        <lastmod>2020-07-16T15:56:32-06:00</lastmod>
+        <lastmod>2020-08-02T18:30:29-06:00</lastmod>
       
       
         <changefreq>weekly</changefreq>
@@ -96,7 +141,7 @@
     <url>
       <loc>http://localhost:4000/blog/</loc>
       
-        <lastmod>2020-07-16T15:56:32-06:00</lastmod>
+        <lastmod>2020-08-02T18:30:29-06:00</lastmod>
       
       
         <changefreq>weekly</changefreq>
@@ -111,7 +156,7 @@
     <url>
       <loc>http://localhost:4000/contact/</loc>
       
-        <lastmod>2020-07-16T15:56:32-06:00</lastmod>
+        <lastmod>2020-08-02T18:30:29-06:00</lastmod>
       
       
         <changefreq>weekly</changefreq>
@@ -126,7 +171,7 @@
     <url>
       <loc>http://localhost:4000/feed.xml</loc>
       
-        <lastmod>2020-07-16T15:56:32-06:00</lastmod>
+        <lastmod>2020-08-02T18:30:29-06:00</lastmod>
       
       
         <changefreq>weekly</changefreq>
@@ -141,7 +186,7 @@
     <url>
       <loc>http://localhost:4000/gallery/</loc>
       
-        <lastmod>2020-07-16T15:56:32-06:00</lastmod>
+        <lastmod>2020-08-02T18:30:29-06:00</lastmod>
       
       
         <changefreq>weekly</changefreq>
@@ -156,7 +201,7 @@
     <url>
       <loc>http://localhost:4000/</loc>
       
-        <lastmod>2020-07-16T15:56:32-06:00</lastmod>
+        <lastmod>2020-08-02T18:30:29-06:00</lastmod>
       
       
         <changefreq>weekly</changefreq>
@@ -171,7 +216,7 @@
     <url>
       <loc>http://localhost:4000/assets/css/main.css</loc>
       
-        <lastmod>2020-07-16T15:56:32-06:00</lastmod>
+        <lastmod>2020-08-02T18:30:29-06:00</lastmod>
       
       
         <changefreq>weekly</changefreq>
@@ -188,7 +233,7 @@
     <url>
       <loc>http://localhost:4000/assets/js/staticman.js</loc>
       
-        <lastmod>2020-07-16T15:56:32-06:00</lastmod>
+        <lastmod>2020-08-02T18:30:29-06:00</lastmod>
       
       
         <changefreq>weekly</changefreq>
@@ -203,7 +248,22 @@
     <url>
       <loc>http://localhost:4000/tags/</loc>
       
-        <lastmod>2020-07-16T15:56:32-06:00</lastmod>
+        <lastmod>2020-08-02T18:30:29-06:00</lastmod>
+      
+      
+        <changefreq>weekly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:4000/page2/</loc>
+      
+        <lastmod>2020-08-02T18:30:29-06:00</lastmod>
       
       
         <changefreq>weekly</changefreq>

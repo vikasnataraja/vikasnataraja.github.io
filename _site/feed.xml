@@ -11,6 +11,40 @@
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Basics of Recurrent Neural Networks with Keras</title>
+        <description>
+          
+          
+
+        </description>
+        <pubDate>Mon, 10 Aug 2020 00:00:00 -0600</pubDate>
+        <link>http://localhost:4000/2020-08-10-Recurrent-Neural-Networks/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020-08-10-Recurrent-Neural-Networks/</guid>
+      </item>
+    
+      <item>
+        <title>Understanding Bias and Variance in Machine Learning</title>
+        <description>
+          A look at the bias-variance trade-off in the world of ML - 
+          If you’ve taken a machine learning class, chances are they told you about bias and variance or the bias-variance trade-offs you make in ML. Well, it turns out they are super important and in this blog I’ll talk about what bias and variance are in the context of machine learning,...
+        </description>
+        <pubDate>Mon, 03 Aug 2020 00:00:00 -0600</pubDate>
+        <link>http://localhost:4000/2020-08-03-Bias-Variance-Machine-Learning/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020-08-03-Bias-Variance-Machine-Learning/</guid>
+      </item>
+    
+      <item>
+        <title>Basics of Support Vector Machines (SVMs)</title>
+        <description>
+          Hyperplanes and dimensionalities - 
+          If you’ve ever taken a beginner’s machine learning class, there’s a good chance you’ve heard about SVMs or Support Vector Machines. SVM is a fundamental machine learning algorithm that is even to this day used in classification tasks. SVMs can also be used for regression but in this blog, I’ll...
+        </description>
+        <pubDate>Thu, 30 Jul 2020 00:00:00 -0600</pubDate>
+        <link>http://localhost:4000/2020-07-30-SVM-Machine-Learning/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020-07-30-SVM-Machine-Learning/</guid>
+      </item>
+    
+      <item>
         <title>Basics of Convolutional Neural Networks</title>
         <description>
           Convolution, filters, layers and feature extraction - 
