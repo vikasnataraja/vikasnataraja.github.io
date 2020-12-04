@@ -14,7 +14,7 @@ So, let's start with face recognition. This is not a new development by any mean
 
 <figure align="center">
   <img width="700" height="400" src="/assets/img/bias_ai/nature_megaface.jpg" alt="Facial Recognition montage">
-    <figcaption> Source: [MegaFace](https://megapixels.cc/megaface/)</figcaption>
+    <figcaption itemprop="caption description"><a href="https://megapixels.cc/megaface/">MegaFace</a></figcaption>
 </figure>
 
 
