@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Bias in Artificial Intelligence
-subtitle: How bias manifests in social media
+subtitle: How bias manifests in facial recognition and social media
 cover-img: /assets/img/bias_ai/msceleb_montage.jpg
 tags: [machine-learning, bias, ai-series]
 ---
