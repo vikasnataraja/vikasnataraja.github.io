@@ -11,13 +11,24 @@
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Bias in Artificial Intelligence</title>
+        <description>
+          
+          There is increasing scrutiny surrounding machine learning algorithms and how they can go wrong very badly. Facial recognition is a topic that has gathered momentum in recent years with companies like Clearview AI providing the technology to law enforcement to, according to their website, “track down hundreds of at-large criminals,...
+        </description>
+        <pubDate>Fri, 04 Dec 2020 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/2020-12-04-Bias-Artificial-Intelligence/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020-12-04-Bias-Artificial-Intelligence/</guid>
+      </item>
+    
+      <item>
         <title>Basics of Recurrent Neural Networks with Keras</title>
         <description>
           
           
 
         </description>
-        <pubDate>Mon, 10 Aug 2020 00:00:00 -0600</pubDate>
+        <pubDate>Mon, 10 Aug 2020 00:00:00 -0400</pubDate>
         <link>http://localhost:4000/2020-08-10-Recurrent-Neural-Networks/</link>
         <guid isPermaLink="true">http://localhost:4000/2020-08-10-Recurrent-Neural-Networks/</guid>
       </item>
@@ -28,7 +39,7 @@
           A look at the bias-variance trade-off in the world of ML - 
           If you’ve taken a machine learning class, chances are they told you about bias and variance or the bias-variance trade-offs you make in ML. Well, it turns out they are super important and in this blog I’ll talk about what bias and variance are in the context of machine learning,...
         </description>
-        <pubDate>Mon, 03 Aug 2020 00:00:00 -0600</pubDate>
+        <pubDate>Mon, 03 Aug 2020 00:00:00 -0400</pubDate>
         <link>http://localhost:4000/2020-08-03-Bias-Variance-Machine-Learning/</link>
         <guid isPermaLink="true">http://localhost:4000/2020-08-03-Bias-Variance-Machine-Learning/</guid>
       </item>
@@ -39,7 +50,7 @@
           Hyperplanes and dimensionalities - 
           If you’ve ever taken a beginner’s machine learning class, there’s a good chance you’ve heard about SVMs or Support Vector Machines. SVM is a fundamental machine learning algorithm that is even to this day used in classification tasks. SVMs can also be used for regression but in this blog, I’ll...
         </description>
-        <pubDate>Thu, 30 Jul 2020 00:00:00 -0600</pubDate>
+        <pubDate>Thu, 30 Jul 2020 00:00:00 -0400</pubDate>
         <link>http://localhost:4000/2020-07-30-SVM-Machine-Learning/</link>
         <guid isPermaLink="true">http://localhost:4000/2020-07-30-SVM-Machine-Learning/</guid>
       </item>
@@ -50,7 +61,7 @@
           Convolution, filters, layers and feature extraction - 
           Neural networks have truly transformed the way machine learning and AI in general are perceived and to an extent, researched. They have gone from the fringes of the CS community where only select academics in the late 1980s would publish a paper occasionally to becoming synonymous with artificial intelligence and...
         </description>
-        <pubDate>Thu, 16 Jul 2020 00:00:00 -0600</pubDate>
+        <pubDate>Thu, 16 Jul 2020 00:00:00 -0400</pubDate>
         <link>http://localhost:4000/2020-07-16-Basics-Convolutional-Neural-Networks/</link>
         <guid isPermaLink="true">http://localhost:4000/2020-07-16-Basics-Convolutional-Neural-Networks/</guid>
       </item>
@@ -61,7 +72,7 @@
           My thoughts on Tara Westover's powerful memoir - 
           I don’t know if it’s because this is the first book I’ve read in more than three years or that it is, by itself, genuine and powerful but Educated by Tara Westover is one of the best books I’ve ever read. It should, of course, come as no surprise when...
         </description>
-        <pubDate>Fri, 29 May 2020 00:00:00 -0600</pubDate>
+        <pubDate>Fri, 29 May 2020 00:00:00 -0400</pubDate>
         <link>http://localhost:4000/2020-05-29-bookclub-educated-westover/</link>
         <guid isPermaLink="true">http://localhost:4000/2020-05-29-bookclub-educated-westover/</guid>
       </item>
@@ -72,7 +83,7 @@
           Q-function, policies and rewards - 
           Welcome to my very first blog on this revamped website! I decided to write this blog about Reinforcement Learning because it is an area of Artificial Intelligence that I am absolutely fascinated by! From teaching robots how to pick up cans from a table to playing Mario, the applications of...
         </description>
-        <pubDate>Wed, 13 May 2020 00:00:00 -0600</pubDate>
+        <pubDate>Wed, 13 May 2020 00:00:00 -0400</pubDate>
         <link>http://localhost:4000/2020-05-13-Basics-of-RL/</link>
         <guid isPermaLink="true">http://localhost:4000/2020-05-13-Basics-of-RL/</guid>
       </item>
@@ -83,7 +94,7 @@
           A little about me and a look at what's to come - 
           Hello and welcome to my blog! I’m Vikas and I am a research assistant at the Laboratory for Atmospheric and Space Physics in Boulder, CO, working with mostly machine learning. My main focus though is with robotics and autonomous vehicles and because of that, I get to do a lot...
         </description>
-        <pubDate>Sun, 10 May 2020 00:00:00 -0600</pubDate>
+        <pubDate>Sun, 10 May 2020 00:00:00 -0400</pubDate>
         <link>http://localhost:4000/2020-05-10-welcome/</link>
         <guid isPermaLink="true">http://localhost:4000/2020-05-10-welcome/</guid>
       </item>
