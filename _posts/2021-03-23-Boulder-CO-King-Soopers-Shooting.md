@@ -31,6 +31,8 @@ All of this makes it hard to digest what has happened to my town. Not many thing
 
 I am completely heartbroken and my chest feels heavy. I cannot not think of the people affected. I want them to know that the people of Boulder and I are thinking about them. And as we mourn the victims, I want to remember them and preserve their memories and I hope you do too. But, I want to do more. Please tell me how I can help. Over the next few days, I will be looking out for GoFundMe pages, memorial services, and vigils so we can show our support and share our love for everyone affected by this and I will post them here. And I hope we can get through this together, as a community. Much love, Boulder.
 
-Links (updating):
+Links (updated):
 
 [Boulder County Injured and Fallen Office Fund](https://www.bouldercounty.org/safety/sheriff/fallen-officer-fund/)
+
+[Colorado Healing Fund](https://www.coloradohealingfund.org/2021/03/23/colorado-healing-fund-responds-to-king-soopers-shooting-in-boulder/)
