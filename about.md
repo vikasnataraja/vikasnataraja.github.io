@@ -1,15 +1,16 @@
 ---
 layout: page
-title: About Me
+title: About Me - Vikas Nataraja
 subtitle: Vikas Nataraja
+description: About Me page for Vikas Nataraja
 ---
-*Last Updated: May 2020*
+*Last Updated: March 2021*
 
-Hey there! I'm Vikas Nataraja, a research assistant at the Laboratory for Atmospheric and Space Physics (LASP). I design and experiment with various Machine Learning algorithms and models, particularly in the field of self-driving cars. I had a couple of weeks before I started my job after graduation and I wanted to learn HTML and CSS so I decided to build this website and ta-da!
+Hey there! I'm Vikas Nataraja, a researcher at the Laboratory for Atmospheric and Space Physics (LASP). I design and experiment with various Machine Learning/AI algorithms and models that are designed to improve the state-of-the-art. I started this blog mainly because I love writing and blogging but also so I could learn basic web design. I'll be blogging about anything that I find interesting - bias in AI algorithms, reinforcement learning, latest ML papers etc. I want to keep improving this website, so feel [free to get in touch](https://vikasnataraja.github.io/contact) to tell me how I can or tell me what issues you want me to write about on this blog.
 
-So if you want to talk about self-driving vehicles, robotics,
+<!-- So if you want to talk about self-driving vehicles, robotics,
 machine learning, coffee, how vim is better than emacs, soccer,
-hit me up! [Email me](mailto:hnvikas14@gmail.com), connect with me on [LinkedIn](https://www.linkedin.com/in/vikas-hanasoge-nataraja), follow me on [Twitter](http://twitter.com/vikasnataraja) and check out my [Github](https://www.github.com/vikasnataraja).
+hit me up! [Email me](mailto:hnvikas14@gmail.com), connect with me on [LinkedIn](https://www.linkedin.com/in/vikas-hanasoge-nataraja), follow me on [Twitter](http://twitter.com/vikasnataraja) and check out my [Github](https://www.github.com/vikasnataraja). -->
 
 
 <figure align="center">
@@ -17,8 +18,7 @@ hit me up! [Email me](mailto:hnvikas14@gmail.com), connect with me on [LinkedIn]
     <figcaption> Me at Toronto's CN Tower </figcaption>
 </figure>
 
-I graduated from the University of Colorado Boulder where I worked on a lot of different things ranging from robotics and self-driving cars to aerospace and atmospheric science. On the AVs side, I worked on the perception side of things
-with camera and lidar data, designing ML and CV algorithms. More recently, I have been working a lot on Reinforcement Learning and Time Series algorithms and some other cool stuff, check out my [blog](https://vikasnataraja.github.io/blog/).
+I graduated from the University of Colorado Boulder in May 2020 where I worked on a lot of different things ranging from robotics and self-driving cars to aerospace and atmospheric science. I focused on the perception side of things with camera and lidar data, designing ML and CV algorithms. More recently, I have been working on bias in AI and convolutional neural networks and some other cool stuff. Check out my [blog](https://vikasnataraja.github.io/blog/).
 
 
 <p align="center">
@@ -43,9 +43,9 @@ with camera and lidar data, designing ML and CV algorithms. More recently, I hav
 </figure>
 
 
-Currently I work as a Research Assistant at the [Laboratory for Atmospheric and Space Physics](http://lasp.colorado.edu/home/) with
-Dr. Sebastian Schmidt to use machine learning to predict Cloud Optical Thickness from cloud radiances. The idea is to design a CNN to quickly estimate the Cloud Optical Thickness or COT based on a 3D radiative transfer model. In simpler words, calculate the
-optical thickness of clouds in images taken from a Sky-View camera by taking into account the radiative transfer (geometry and spectral distribution of radiation) through clouds. This is one of the first times I have had the chance to use Deep Learning in a field other than autonomous vehicles or robotics and I'm very excited for it! We started with a PSPNet-based framework/backbone but quickly switched to other complex architectures which have produced some incredible results. I'm pretty pumped about it, stay tuned for our paper!
+Currently, I work as a Research Assistant at the [Laboratory for Atmospheric and Space Physics](http://lasp.colorado.edu/home/) with
+Dr. Sebastian Schmidt and his group to use machine learning to predict Cloud Optical Thickness from cloud radiances. The idea is to design a CNN to quickly estimate the Cloud Optical Thickness or COT based on a 3D radiative transfer model. In simpler words, calculate the
+optical thickness of clouds in images taken from a Sky-View camera by taking into account the radiative transfer (geometry and spectral distribution of radiation) through clouds. We started with a PSPNet-based framework/backbone but quickly switched to other complex architectures which have produced some incredible results. I'm pretty pumped about it, stay tuned for our paper!
 
 <p align="center">
   <strong>
@@ -95,4 +95,4 @@ re-learn some topics I had forgotten about. One of my more exciting ventures for
     <figcaption>The MAXWELL Team, Fall 2019</figcaption>
 </figure>
 
-For the entirety of my grad school life, I worked for the ADCS Software Engineering Team for the [Maxwell CubeSat](https://www.colorado.edu/project/maxwellcubesat/our-mission) mission and I held various roles including Volunteer, Software Engineer and Team Lead. I worked on Attitude Determination and Control Systems problems for the satellite. Specifically, I developed Flight Software to use perception (from sensors) and control the motion of the satellite using actuators. Currently, it is scheduled to be delivered to the US Air Force Research Lab by late 2020/early 2021 with a tentative launch date in the fall of 2021. The biggest reason why I joined this project in the first place in spite of it not being my focus area was the opportunity to take my work on Perception systems in AVs and use them in the real world and learn about control systems which hasn't always particularly been my cup of tea. Plus, the chance to launch an actual satellite that would fly in space was hard to turn down and it was one of the best experiences I've ever had!
+For the entirety of my grad school life, I worked for the ADCS Software Engineering Team for the [Maxwell CubeSat](https://www.colorado.edu/project/maxwellcubesat/our-mission) mission and I held various roles including Volunteer, Software Engineer and Team Lead. I worked on Attitude Determination and Control Systems problems for the satellite. Specifically, I developed Flight Software to use perception (from sensors) and control the motion of the satellite using actuators. Currently, it is scheduled to be delivered to the US Air Force Research Lab by late 2020/early 2021 with a tentative launch date in the fall of 2021. The biggest reason why I joined this project in the first place in spite of it not being my focus area was the opportunity to take my work on Perception systems in AVs and use them in the real world and learn about control systems which hasn't always particularly been my cup of tea. Plus, the chance to launch an actual satellite that would fly in space was hard to turn down and it was one of the best experiences I've ever had! Check out [our paper here](https://digitalcommons.usu.edu/smallsat/2020/all2020/31/).
