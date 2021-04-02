@@ -75,6 +75,16 @@ hr.small {
 .main-content {
   padding-top: 5rem;
 }
+
+@media (max-width: 767px) {
+  body {
+    font-size: 1.025rem;
+  }
+  img {
+    height: 100%;
+  }
+}
+
 @media (min-width: 768px) {
   .main-content {
     padding-top: 8.125rem;
