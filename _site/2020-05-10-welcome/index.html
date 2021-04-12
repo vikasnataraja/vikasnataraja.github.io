@@ -71,9 +71,10 @@
   <!-- Support for Latex and inline Latex -->
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_CHTML"></script>
   <script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
+    MathJax.Hub.Config({messageStyle: 'none',
     tex2jax: {
     inlineMath: [['$','$'], ['\\(','\\)']],
+    preview: 'none',
     displayMath: [['$$','$$']],
     processEscapes: true},
     jax: ["input/TeX","input/MathML","input/AsciiMath","output/CommonHTML"],
@@ -96,24 +97,35 @@
 <head>
   <!-- Google: google-site-verification -->
   <meta name="google-site-verification" content="Igdg61QIdwtXyb4IaoCnImb9X5Sf2ZeJpCwK2cugP1E" />
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+  <meta name="description" content="Vikas Nataraja's blog about machine learning, coffee, books and so much more! Join me as I explore and research all things AI."/>
 
   <title>Welcome to my blog!</title>
 
   
-  <meta name="author" content="Vikas Nataraja">
+  <meta name="author" content="Vikas Nataraja"/>
   
 
   
-  <meta name="description" content="A little about me and a look at what's to come">
+  <meta name="description" content="A little about me and a look at what's to come"/>
   
 
-  <link rel="shortcut icon" type="image/png" href="/assets/img/icons/192x192.png">
-  <link rel="shortcut icon" sizes="196x196" href="/assets/img/icons/192x192.png">
-  <link rel="apple-touch-icon" href="/assets/img/icons/apple-touch-icon.png">
-  <link rel="alternate" type="application/rss+xml" title="Machine Learning and Coffee Chronicles - Vikas Nataraja's blog about machine learning, coffee, books and so much more!" href="http://localhost:4000/feed.xml">
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/img/icons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/assets/img/icons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/assets/img/icons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/assets/img/icons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/assets/img/icons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/assets/img/icons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/assets/img/icons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/img/icons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/icons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="/assets/img/icons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/assets/img/icons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/icons/favicon-16x16.png">
+  <link rel="alternate" type="application/rss+xml" title="Machine Learning and Coffee Chronicles - Vikas Nataraja's blog about machine learning, coffee, books and so much more! Join me as I explore and research all things AI." href="http://localhost:4000/feed.xml"/>
 
   
 
@@ -133,6 +145,23 @@
 </script>
 <!-- End Google Analytics -->
 
+
+
+  
+
+  
+
+  <title>Welcome to my blog!</title>
+
+  
+  <meta name="author" content="Vikas Nataraja"/>
+  
+
+  
+
+  
+  <meta name="keywords" content="Machine Learning blog, Vikas Nataraja, Researcher, Artifical Intelligence, AI, ML, Coffee, LASP, Laboratory of Atmospheric and Space Physics, University of Colorado Boulder"/>
+  
 
 
   
@@ -166,9 +195,9 @@
 
   
     
-      <link rel="stylesheet" href="/assets/css/bootstrap-social.css">
+      <link rel="stylesheet" href="/assets/css/bootstrap-social.css"/>
     
-      <link rel="stylesheet" href="/assets/css/main.css">
+      <link rel="stylesheet" href="/assets/css/main.css"/>
     
   
 
@@ -180,42 +209,37 @@
   
 
   
-  <meta property="og:title" content="Welcome to my blog!">
-  
-
-   
-  <meta property="og:description" content="A little about me and a look at what's to come">
-  
-
-
-  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Machine Learning and Coffee Chronicles"/>
+  <meta property="og:title" content="Welcome to my blog!"/>
+  <meta property="og:description" content="A little about me and a look at what's to come"/>
 
   
-  <meta property="og:url" content="http://localhost:4000/2020-05-10-welcome/">
-  <link rel="canonical" href="http://localhost:4000/2020-05-10-welcome/">
+  <meta property="og:image" content="http://localhost:4000/assets/img/welcome/goldenratio.jpg"/>
   
 
   
-  <meta property="og:image" content="http://localhost:4000/assets/img/cn_tower.jpg">
-  
-
-
-  <!-- Twitter summary cards -->
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:site" content="@vikasnataraja">
-  <meta name="twitter:creator" content="@vikasnataraja">
-
-  
-  <meta name="twitter:title" content="Welcome to my blog!">
+  <meta property="og:type" content="article"/>
+  <meta property="og:article:author" content="Vikas Nataraja"/>
+  <meta property="og:article:published_time" content="2020-05-10T00:00:00-04:00"/>
+  <meta property="og:url" content="http://localhost:4000/2020-05-10-welcome/"/>
+  <link rel="canonical" href="http://localhost:4000/2020-05-10-welcome/"/>
   
 
   
-  <meta name="twitter:description" content="A little about me and a look at what's to come">
+  <meta name="twitter:card" content="summary_large_image"/>
+  
+  <meta name="twitter:site" content="@vikasnataraja"/>
+  <meta name="twitter:creator" content="@vikasnataraja"/>
+
+  <meta property="twitter:title" content="Welcome to my blog!"/>
+  <meta property="twitter:description" content="A little about me and a look at what's to come"/>
+
+  
+  <meta name="twitter:image" content="http://localhost:4000/assets/img/welcome/goldenratio.jpg"/>
   
 
   
-  <meta name="twitter:image" content="http://localhost:4000/assets/img/cn_tower.jpg">
-  
+
 
   
 
@@ -247,7 +271,7 @@
     
 
 
-    <nav class="navbar navbar-expand-md navbar-light fixed-top navbar-custom "><a class="navbar-brand navbar-brand-logo" href="http://localhost:4000/"><img alt="Machine Learning and Coffee Chronicles Logo" src="assets/img/icons/sidebar.png"/></a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-md navbar-light fixed-top navbar-custom "><a class="navbar-brand navbar-brand-logo" href="http://localhost:4000/"><img alt="Machine Learning and Coffee Chronicles Logo" src="/assets/img/icons/sidebar.png"/></a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
@@ -454,7 +478,7 @@
         
         
         <li class="page-item next">
-          <a class="page-link" href="/2020-05-13-Basics-of-RL/" data-toggle="tooltip" data-placement="top" title="Basics of Reinforcement Learning">Next Post &rarr;</a>
+          <a class="page-link" href="/2020-05-13-Basics-of-Reinforcement-Learning/" data-toggle="tooltip" data-placement="top" title="Basics of Reinforcement Learning">Next Post &rarr;</a>
         </li>
         
       </ul>

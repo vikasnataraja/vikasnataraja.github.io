@@ -5,10 +5,21 @@
     <title>Machine Learning and Coffee Chronicles</title>
     
     
-    <description>Vikas Nataraja's blog about machine learning, coffee, books and so much more!</description>
+    <description>Vikas Nataraja's blog about machine learning, coffee, books and so much more! Join me as I explore and research all things AI.</description>
     
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>Unsupervised Learning of Deformable 3D Objects</title>
+        <description>
+          A closer look at a paper that won Best Paper Award at CVPR 2020 - 
+          In this blog post, I’ll talk about a super interesting paper that won the Best Paper Award at the Conference for Vision and Pattern Recognition (CVPR) in 2020. This paper comes courtesy of the incredibly innovative Visual Geometry Group at the University of Oxford. So, let’s dive right in. Title:...
+        </description>
+        <pubDate>Sat, 03 Apr 2021 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/2021-04-03-CVPR-2020-Unsupervised-Learning-Review/</link>
+        <guid isPermaLink="true">http://localhost:4000/2021-04-03-CVPR-2020-Unsupervised-Learning-Review/</guid>
+      </item>
     
       <item>
         <title>Boulder - My town, my people</title>
@@ -72,8 +83,8 @@
           Welcome to my very first blog on this revamped website! I decided to write this blog about Reinforcement Learning because it is an area of Artificial Intelligence that I am absolutely fascinated by! From teaching robots how to pick up cans from a table to playing Mario, the applications of...
         </description>
         <pubDate>Wed, 13 May 2020 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/2020-05-13-Basics-of-RL/</link>
-        <guid isPermaLink="true">http://localhost:4000/2020-05-13-Basics-of-RL/</guid>
+        <link>http://localhost:4000/2020-05-13-Basics-of-Reinforcement-Learning/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020-05-13-Basics-of-Reinforcement-Learning/</guid>
       </item>
     
       <item>

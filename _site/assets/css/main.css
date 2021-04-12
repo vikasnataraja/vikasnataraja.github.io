@@ -68,6 +68,16 @@ hr.small {
 .main-content {
   padding-top: 5rem;
 }
+
+@media (max-width: 767px) {
+  body {
+    font-size: 1.025rem;
+  }
+  img {
+    height: 100%;
+  }
+}
+
 @media (min-width: 768px) {
   .main-content {
     padding-top: 8.125rem;
@@ -164,7 +174,7 @@ img {
 .navbar-custom .navbar-brand-logo img,
 .navbar-custom.top-nav-short .navbar-brand-logo img,
 .navbar-custom.top-nav-short-permanent .navbar-brand-logo img {
-  height: 2.5rem;
+  height: 5.5rem;
 }
 
 .navbar-custom .navbar-brand:hover,
@@ -224,7 +234,7 @@ img {
   }
 
   .navbar-custom .navbar-brand-logo img {
-    height: 3.125rem;
+    height: 6.125rem;
   }
 
   .navbar-expand-md .navbar-nav .nav-link {
