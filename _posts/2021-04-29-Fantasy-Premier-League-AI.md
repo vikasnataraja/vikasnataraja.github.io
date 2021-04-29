@@ -67,7 +67,7 @@ Despite having to pick a team of 15 players, only the 11 in the starting lineup 
 
 With that information, here are some ideas I have:
 
-- Build a temporal network like RNN or LSTM that takes into account past information to predict the future. The sample size will be important here - do I prioritize the last 5 games of a player from a bottom half team or do I keep a underperforming but top player in the team? These are questions that the network will have to learn to answer.
+- Build a temporal network like RNN or LSTM that takes into account past information to predict the future. The sample size will be important here - do I prioritize the last 5 games of a player from a bottom half team or do I keep an underperforming but top player in the team? These are questions that the network will have to learn to answer.
 
 <figure align="center">
   <img width="800" height="400" src="/assets/img/fpl/lstm.jpg" alt="LSTM architecture">
@@ -97,6 +97,6 @@ With that information, here are some ideas I have:
 </figure>
 <br/>
 
-Either way, my initial approach will likely comprise of EDA (Exploratory Data Analysis) and this will easily take a few weeks due to the sheer amount of data - 4 seasons of data for over 500 unique players over a combined 150 gameweeks. This definitely seems like a slightly long project and my aim is have a model ready by the start of the 2021-22 season in August. Follow this blog for updates as I work on it over the summer -  I will use [this tag](https://vikasnataraja.github.io/tags#fpl) for this line of work. I'm pumped to be able to combine 2 of my favorite things - football and AI!
+Either way, my initial approach will likely comprise of EDA (Exploratory Data Analysis) and this will easily take a few weeks due to the sheer amount of data - 4 seasons of data for over 500 unique players over a combined 150 gameweeks. It is also very likely that I will have to develop some more statistical metrics like points per million which tells us if a player is worth the money. Another stat could be xG (Expected Goals) which takes into account thousands of shots from a position to quantify the chance of a shot from a particular angle after a certain passage of play becoming a goal. This definitely seems like a slightly long project and my aim is have a model ready by the start of the 2021-22 season in August. Follow this blog for updates as I work on it over the summer -  I will use [this tag](https://vikasnataraja.github.io/tags#fpl) for this line of work. I'm pumped to be able to combine 2 of my favorite things - football and AI!
 
 Cover Image Credit: [Vienna Reyes via Unsplash](https://unsplash.com/@viennachanges)
