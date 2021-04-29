@@ -3,9 +3,24 @@
   
     
     <url>
-      <loc>http://localhost:4000/2021-04-03-CVPR-2020-Unsupervised-Learning-Review/</loc>
+      <loc>http://localhost:4000/2021-05-01-Fantasy-Premier-League-AI/</loc>
       
-        <lastmod>2021-04-03T00:00:00-04:00</lastmod>
+        <lastmod>2021-05-01T00:00:00-04:00</lastmod>
+      
+      
+        <changefreq>weekly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:4000/2021-04-16-ICLR-Lottery-Ticket-Hypothesis/</loc>
+      
+        <lastmod>2021-04-16T00:00:00-04:00</lastmod>
       
       
         <changefreq>weekly</changefreq>
@@ -126,7 +141,7 @@
     <url>
       <loc>http://localhost:4000/404.html</loc>
       
-        <lastmod>2021-04-13T13:33:25-04:00</lastmod>
+        <lastmod>2021-04-29T13:28:57-04:00</lastmod>
       
       
         <changefreq>weekly</changefreq>
@@ -141,7 +156,7 @@
     <url>
       <loc>http://localhost:4000/CV/</loc>
       
-        <lastmod>2021-04-13T13:33:25-04:00</lastmod>
+        <lastmod>2021-04-29T13:28:57-04:00</lastmod>
       
       
         <changefreq>weekly</changefreq>
@@ -156,7 +171,7 @@
     <url>
       <loc>http://localhost:4000/about/</loc>
       
-        <lastmod>2021-04-13T13:33:25-04:00</lastmod>
+        <lastmod>2021-04-29T13:28:57-04:00</lastmod>
       
       
         <changefreq>weekly</changefreq>
@@ -171,7 +186,7 @@
     <url>
       <loc>http://localhost:4000/blog/</loc>
       
-        <lastmod>2021-04-13T13:33:25-04:00</lastmod>
+        <lastmod>2021-04-29T13:28:57-04:00</lastmod>
       
       
         <changefreq>weekly</changefreq>
@@ -186,7 +201,7 @@
     <url>
       <loc>http://localhost:4000/contact/</loc>
       
-        <lastmod>2021-04-13T13:33:25-04:00</lastmod>
+        <lastmod>2021-04-29T13:28:57-04:00</lastmod>
       
       
         <changefreq>weekly</changefreq>
@@ -201,7 +216,7 @@
     <url>
       <loc>http://localhost:4000/feed.xml</loc>
       
-        <lastmod>2021-04-13T13:33:25-04:00</lastmod>
+        <lastmod>2021-04-29T13:28:57-04:00</lastmod>
       
       
         <changefreq>weekly</changefreq>
@@ -216,7 +231,7 @@
     <url>
       <loc>http://localhost:4000/gallery/</loc>
       
-        <lastmod>2021-04-13T13:33:25-04:00</lastmod>
+        <lastmod>2021-04-29T13:28:57-04:00</lastmod>
       
       
         <changefreq>weekly</changefreq>
@@ -231,7 +246,7 @@
     <url>
       <loc>http://localhost:4000/</loc>
       
-        <lastmod>2021-04-13T13:33:25-04:00</lastmod>
+        <lastmod>2021-04-29T13:28:57-04:00</lastmod>
       
       
         <changefreq>weekly</changefreq>
@@ -246,7 +261,7 @@
     <url>
       <loc>http://localhost:4000/assets/css/main.css</loc>
       
-        <lastmod>2021-04-13T13:33:25-04:00</lastmod>
+        <lastmod>2021-04-29T13:28:57-04:00</lastmod>
       
       
         <changefreq>weekly</changefreq>
@@ -263,7 +278,7 @@
     <url>
       <loc>http://localhost:4000/assets/js/staticman.js</loc>
       
-        <lastmod>2021-04-13T13:33:25-04:00</lastmod>
+        <lastmod>2021-04-29T13:28:57-04:00</lastmod>
       
       
         <changefreq>weekly</changefreq>
@@ -278,7 +293,7 @@
     <url>
       <loc>http://localhost:4000/tags/</loc>
       
-        <lastmod>2021-04-13T13:33:25-04:00</lastmod>
+        <lastmod>2021-04-29T13:28:57-04:00</lastmod>
       
       
         <changefreq>weekly</changefreq>
@@ -293,7 +308,7 @@
     <url>
       <loc>http://localhost:4000/page2/</loc>
       
-        <lastmod>2021-04-13T13:33:25-04:00</lastmod>
+        <lastmod>2021-04-29T13:28:57-04:00</lastmod>
       
       
         <changefreq>weekly</changefreq>

@@ -11,14 +11,25 @@
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Using AI to pick a Fantasy team</title>
+        <description>
+          Can you use AI to pick a team for the Fantasy Premier League? - 
+          Fantasy Premier League is one of the most widely played fantasy sports games with about 7 million players registered for the current season. The goal is simple: with a budget of £100m, pick a team with 11 players in the starting lineup and 4 on the bench and get the...
+        </description>
+        <pubDate>Sat, 01 May 2021 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/2021-05-01-Fantasy-Premier-League-AI/</link>
+        <guid isPermaLink="true">http://localhost:4000/2021-05-01-Fantasy-Premier-League-AI/</guid>
+      </item>
+    
+      <item>
         <title>The Lottery Ticket Hypothesis</title>
         <description>
           A closer look at a paper that won the Best Paper Award at ICLR 2019 - 
           In this blog post, I’ll talk about a super interesting paper that won the Best Paper Award at the International Conference for Learning Representations in 2019. This paper comes courtesy of the incredibly innovative CSAIL group at MIT. So, let’s dive right in. Title: “The Lottery Ticket Hypothesis: Finding Sparse,...
         </description>
-        <pubDate>Sat, 03 Apr 2021 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/2021-04-03-CVPR-2020-Unsupervised-Learning-Review/</link>
-        <guid isPermaLink="true">http://localhost:4000/2021-04-03-CVPR-2020-Unsupervised-Learning-Review/</guid>
+        <pubDate>Fri, 16 Apr 2021 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/2021-04-16-ICLR-Lottery-Ticket-Hypothesis/</link>
+        <guid isPermaLink="true">http://localhost:4000/2021-04-16-ICLR-Lottery-Ticket-Hypothesis/</guid>
       </item>
     
       <item>
