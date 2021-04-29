@@ -63,7 +63,7 @@ Of course, there are certain unpredictable factors at play - injuries, players b
 
 ## Potential Solutions
 
-Despite having to pick a team of 15 players, only the 11 in the starting lineup contribute towards the points total. So, that tells me that I need to prioritize choosing very good 11 players and 4 average players instead of equally good 15 players. Now, obviously, "good" is a vague definition. Often times, a "good" player won't end up getting points due to the way the game hands out points which is primarily based on goals and assists and clean sheets. This is why players like N'Golo Kante of Chelsea is not a popular FPL player despite being one of the best players in the league. FPL also has a strange way of assigning forwards as midfielders with Mo Salah, Heung Min Son and Aubameyang being some of the famous examples.
+Despite having to pick a team of 15 players, only the 11 in the starting lineup contribute towards the points total. So, that tells me that I need to prioritize choosing very good 11 players and 4 average players instead of equally good 15 players. Now, obviously, "good" is a vague definition. Often times, a "good" player won't end up getting points due to the way the game hands out points which is primarily based on goals and assists and clean sheets. This is someone like N'Golo Kante of Chelsea is not a popular FPL player despite being one of the best players in the league. FPL also has a strange way of assigning forwards as midfielders with Mo Salah, Heung Min Son and Aubameyang being some of the famous examples.
 
 With that information, here are some ideas I have:
 
