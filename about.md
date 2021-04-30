@@ -1,8 +1,8 @@
 ---
 layout: page
-title: About Me - Vikas Nataraja
+title: About Me
 subtitle: Vikas Nataraja
-description: About Me page for Vikas Nataraja
+description: About page for Vikas Nataraja
 ---
 *Last Updated: March 2021*
 
