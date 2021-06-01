@@ -1,8 +1,7 @@
 ---
 layout: page
 title: About Me
-subtitle: Vikas Nataraja
-description: About page for Vikas Nataraja
+subtitle: About Vikas Nataraja
 ---
 *Last Updated: March 2021*
 
@@ -14,11 +13,11 @@ hit me up! [Email me](mailto:hnvikas14@gmail.com), connect with me on [LinkedIn]
 
 
 <figure align="center">
-  <img width="600" height="680" src="/assets/img/cn_tower.jpg" alt="Vikas Nataraja at CN Tower in Toronto">
+  <img width="600" height="680" src="/assets/img/cn_tower.jpg" alt="Vikas Nataraja at the CN Tower in Toronto">
     <figcaption> Me at Toronto's CN Tower </figcaption>
 </figure>
 
-I graduated from the University of Colorado Boulder in May 2020 where I worked on a lot of different things ranging from robotics and self-driving cars to aerospace and atmospheric science. I focused on the perception side of things with camera and lidar data, designing ML and CV algorithms. More recently, I have been working on bias in AI and convolutional neural networks and some other cool stuff. Check out my [blog](https://vikasnataraja.github.io/blog/).
+I graduated from the University of Colorado Boulder in May 2020 where I worked on a lot of different things ranging from robotics and self-driving cars to aerospace and atmospheric science. I focused on the perception side of things with camera and lidar data, designing ML and CV algorithms. More recently, I have been working on bias in AI and convolutional neural networks and some other cool stuff. Check out my [blog](https://vikasnataraja.github.io/blog/) where I write about ML topics.
 
 
 <p align="center">
@@ -56,7 +55,7 @@ optical thickness of clouds in images taken from a Sky-View camera by taking int
 </p>
 
 <figure align="center">
-  <img width="700" height="450" src="/assets/img/allvision.jpg" alt="Allvision IO event in Pittsburgh, PA">
+  <img width="700" height="450" src="/assets/img/allvision.jpg" alt="Vikas Nataraja at the Allvision IO event in Pittsburgh, PA">
     <figcaption>The team at Allvision IO at an event in the Strip District</figcaption>
 </figure>
 
@@ -91,7 +90,7 @@ re-learn some topics I had forgotten about. One of my more exciting ventures for
 </p>
 
 <figure align="center">
-  <img width="700" height="400" src="/assets/img/maxwell.jpg" alt="MAXWELL CubeSat">
+  <img width="700" height="400" src="/assets/img/maxwell.jpg" alt="Vikas Nataraja and the team at MAXWELL CubeSat">
     <figcaption>The MAXWELL Team, Fall 2019</figcaption>
 </figure>
 

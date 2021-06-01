@@ -9,7 +9,6 @@
   <meta charset="utf-8"/>
   <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
-  <meta name="description" content="{{ site.description }}"/>
 
   <!-- <title>{% if page.use-site-title %}{{ site.title }} {{ site.title-separator | default: '-' }} {{ site.description }}{% elsif page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title> -->
   <title>{{page.title}} | {{site.author}}</title>
@@ -19,8 +18,16 @@
   <!-- {% endif %} -->
 
   {% if page.subtitle %}
-  <meta name="description" content="{{ page.subtitle }}"/>
+    {% if page.layout == 'post' %}
+    {%- assign excerpt_length = 35 -%}
+    <meta name="description" content="{{ page.subtitle }} {{page.content | strip_html | xml_escape | truncatewords: excerpt_length | strip }}"/>
+    {% else %}
+    <meta name="description" content="{{ page.subtitle }}"/>
+    {% endif %}
+  {% else %}
+  <meta name="description" content="{{ site.description }}"/>
   {% endif %}
+
 
   <link rel="apple-touch-icon" sizes="57x57" href="/assets/img/icons/apple-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="/assets/img/icons/apple-icon-60x60.png">
