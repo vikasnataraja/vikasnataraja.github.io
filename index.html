@@ -3,29 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vikas Nataraja/title>
+    <title>Vikas Nataraja | Earth Science Researcher</title>
     <meta name="description" content="Personal website of Vikas Nataraja, Ph.D. student at CU Boulder focusing on remote sensing, machine learning, and surface energy budget.">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <header>
-        <h1>Vikas Nataraja</h1>
-        <p class="subtitle">Ph.D. Student in Atmospheric & Oceanic Sciences | CU Boulder</p>
-        <nav aria-label="Main Navigation">
-            <ul>
+    <nav class="site-nav" aria-label="Main Navigation">
+        <div class="nav-container">
+            <div class="nav-brand">Vikas Nataraja</div>
+            <ul class="nav-links">
                 <li><a href="index.html" class="active" aria-current="page">About</a></li>
                 <li><a href="research.html">Research & Publications</a></li>
                 <li><a href="teaching.html">Teaching</a></li>
-                <!-- <li><a href="Vikas_Nataraja_CV.pdf" target="_blank" rel="noopener noreferrer">CV (PDF)</a></li> -->
+                <!-- <li><a href="Vikas_Nataraja_CV.pdf" target="_blank" rel="noopener noreferrer">CV</a></li> -->
             </ul>
-        </nav>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <h1>Vikas Nataraja</h1>
+        <p class="subtitle">Ph.D. Student in Atmospheric & Oceanic Sciences | CU Boulder</p>
     </header>
 
     <main>
         <section id="about">
             <h2>About Me</h2>
             <p>
-                I'm a Ph.D. student at the Department of Atmospheric and Oceanic Sciences (ATOC) at the University of Colorado Boulder (CU Boulder). I also work as a Research Affiliate/Assistant at the Laboratory for Atmospheric and Space Physics (LASP). I am a part of the Atmospheric Imaging, Radiation, and Remote Sensing (AIRS) group, advised by Sebastian Schmidt.
+                I am a Ph.D. student at the Department of Atmospheric and Oceanic Sciences (ATOC) at the University of Colorado Boulder (CU Boulder). I also work as a Research Affiliate/Assistant at the Laboratory for Atmospheric and Space Physics (LASP). I am a part of the Atmospheric Imaging, Radiation, and Remote Sensing (AIRS) group, advised by Sebastian Schmidt.
             </p>
             <p>
                 I graduated with a Bachelor's degree in Electrical and Computer Engineering at CU Boulder in 2018. During my Master's, I took on several projects involving machine learning and have since continued in that path. I was also a part of the Maxwell CubeSat engineering team where I was the Lead ADCS Engineer. I graduated with a Master's in 2020 and took on a full-time role working with Sebastian Schmidt at LASP. Since then, I have moved away from engineering and more towards science, although there are more than a few commonalities between the two worlds. I have worked on machine learning algorithms to retrieve cloud optical thickness as well as algorithmic tool development.
@@ -43,7 +47,7 @@
             <p>
                 <strong>Email:</strong> <a href="mailto:Vikas.HanasogeNataraja@colorado.edu">Vikas.HanasogeNataraja@colorado.edu</a>
             </p>
-            <div class="social-links" style="justify-content: flex-start;">
+            <div class="social-links">
                 <a href="https://github.com/vikasnataraja" target="_blank" rel="noopener noreferrer">GitHub</a>
                 <a href="https://tinyurl.com/vikas-linkedin" target="_blank" rel="noopener noreferrer">LinkedIn</a>
                 <a href="https://tinyurl.com/vnataraja" target="_blank" rel="noopener noreferrer">Google Scholar</a>
@@ -53,7 +57,7 @@
 
     <footer>
         <p>&copy; <span id="year"></span> Vikas Nataraja. All rights reserved.</p>
-        <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+        <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
     </footer>
 </body>
 </html>

@@ -8,17 +8,21 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <header>
-        <h1>Vikas Nataraja</h1>
-        <p class="subtitle">Ph.D. Student in Atmospheric & Oceanic Sciences | CU Boulder</p>
-        <nav aria-label="Main Navigation">
-            <ul>
+    <nav class="site-nav" aria-label="Main Navigation">
+        <div class="nav-container">
+            <div class="nav-brand">Vikas Nataraja</div>
+            <ul class="nav-links">
                 <li><a href="index.html">About</a></li>
                 <li><a href="research.html" class="active" aria-current="page">Research & Publications</a></li>
                 <li><a href="teaching.html">Teaching</a></li>
-                <!-- <li><a href="Vikas_Nataraja_CV.pdf" target="_blank" rel="noopener noreferrer">CV (PDF)</a></li> -->
+                <!-- <li><a href="Vikas_Nataraja_CV.pdf" target="_blank" rel="noopener noreferrer">CV</a></li> -->
             </ul>
-        </nav>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <h1>Research & Publications</h1>
+        <p class="subtitle">Exploring the Arctic, remote sensing, and machine learning.</p>
     </header>
 
     <main>
@@ -93,7 +97,7 @@
 
     <footer>
         <p>&copy; <span id="year"></span> Vikas Nataraja. All rights reserved.</p>
-        <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+        <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
     </footer>
 </body>
 </html>
