@@ -51,6 +51,7 @@ a:hover, a:focus {
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
     border-bottom: 1px solid var(--border-color);
+    border-top: 4px solid var(--accent-color);
     z-index: 1000;
 }
 
@@ -70,6 +71,12 @@ a:hover, a:focus {
     font-size: 1.25rem;
     color: #111827;
     letter-spacing: -0.02em;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.nav-brand:hover {
+    color: var(--accent-color);
 }
 
 .nav-links {
@@ -110,6 +117,21 @@ a:hover, a:focus {
     font-size: 1.25rem;
     color: var(--text-light);
     font-weight: 400;
+}
+
+.profile-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid var(--border-color);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
 }
 
 main {
@@ -235,6 +257,11 @@ footer {
 @media (max-width: 600px) {
     .hero h1 {
         font-size: 2.5rem;
+    }
+    .profile-wrapper {
+        flex-direction: column;
+        text-align: center;
+        gap: 1.5rem;
     }
     .nav-container {
         flex-direction: column;
